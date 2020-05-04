@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15e0-c8e4-ca16-cd08" name="Imperium - Adeptus Arbites" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="15e0-c8e4-ca16-cd08" name="Imperium - Adeptus Arbites" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="2" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4156-221d-8681-cbce" name="Codex: Adeptus Arbites"/>
   </publications>
@@ -151,6 +151,46 @@
     <entryLink id="e20d-b61b-f1bd-48e0" name="Arbites Valkyrie" hidden="false" collective="false" import="true" targetId="3205-7893-0b46-3fa7" type="selectionEntry"/>
     <entryLink id="5f4d-112b-ccf3-5f31" name="Precinct Choice" hidden="false" collective="false" import="true" targetId="8432-91c2-e6c7-8f6f" type="selectionEntry"/>
     <entryLink id="8df7-3fe8-11fe-52f3" name="Artifacts of Righteousness" hidden="false" collective="false" import="true" targetId="c775-96d9-1ced-bc2c" type="selectionEntry"/>
+    <entryLink id="d71e-569e-d09b-fd75" name="Inquisitor Greyfax" hidden="false" collective="false" import="true" targetId="9d0c-6df4-8f5d-5a34" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="0d44-fcd8-0126-2749" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="4ef0-d074-fd69-6306" name="Inquisitor Coteaz" hidden="false" collective="false" import="true" targetId="81d1-1b5f-e97c-35ba" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7196-e22e-a4d3-2382" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="50ef-caa2-7172-587d" name="Inquisitor Eisenhorn" hidden="false" collective="false" import="true" targetId="86b2-7c8b-a051-60ca" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="c5c9-1c60-5a22-2399" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1d02-f272-a685-8743" name="Inquisitor" hidden="false" collective="false" import="true" targetId="0b13-8c12-cbea-300f" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="ffec-2e75-784b-b109" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="c676-bdec-e5d4-907c" name="Inquisitor Karamazov" hidden="false" collective="false" import="true" targetId="59d5-160c-f21d-6e49" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="d0a7-7aa9-bc7a-b646" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="1759-17fe-56ac-631c" name="Inquisitor-Lord Hector Rex" hidden="false" collective="false" import="true" targetId="f34a-e3be-53b1-d783" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7470-5ecf-7f27-02b0" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="50ea-63c1-0fc1-7732" name="Inquisitor-Lord Solomon Lok" hidden="false" collective="false" import="true" targetId="027b-c552-db2c-f5f0" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="f336-70de-0f20-97bf" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+    <entryLink id="3269-3a9f-6a0c-479f" name="Ordo Malleus Inquisitor in Terminator Armour" hidden="false" collective="false" import="true" targetId="ba53-1df7-404e-e9c9" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="546d-c62b-9d91-b323" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
+      </categoryLinks>
+    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2616-6bcf-738c-5029" name="Judge" hidden="false" collective="false" import="true" type="unit">
@@ -5235,4 +5275,7 @@ dice roll.</characteristic>
       </profiles>
     </infoGroup>
   </sharedInfoGroups>
+  <catalogueLinks>
+    <catalogueLink id="e44d-cdeb-103b-e846" name="Imperium - Inquisition" targetId="e373-3c0a-1185-46ea" type="catalogue" importRootEntries="true"/>
+  </catalogueLinks>
 </catalogue>
