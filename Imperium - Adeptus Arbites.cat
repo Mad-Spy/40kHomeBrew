@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15e0-c8e4-ca16-cd08" name="Imperium - Adeptus Arbites" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="15e0-c8e4-ca16-cd08" name="Imperium - Adeptus Arbites" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="1" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4156-221d-8681-cbce" name="Codex: Adeptus Arbites"/>
   </publications>
@@ -51,7 +51,7 @@
     <categoryEntry id="fa07-4517-0011-c46e" name="Lord Marshal" hidden="false"/>
   </categoryEntries>
   <selectionEntries>
-    <selectionEntry id="6ec2-6309-4699-d08d" name="Penal Custodian - Use entry from No Forge Org Slot group" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="6ec2-6309-4699-d08d" name="Penal Custodian - Use entry from No Force Org Slot group" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
           <conditions>
@@ -80,27 +80,42 @@
     <entryLink id="b713-91fa-ca2f-f36a" name="Luthir Goreman" hidden="false" collective="false" import="true" targetId="cb96-b1eb-0686-03bb" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1aee-6ebb-1727-fb26" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="1aee-6ebb-1727-fb26" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf11-a20d-7ebf-2abc" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
     <entryLink id="ee3c-f0cd-3163-8aa8" name="Catarina Igazi" hidden="false" collective="false" import="true" targetId="a257-b3d5-91b3-4bc5" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c614-5f5e-a936-4df9" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="c614-5f5e-a936-4df9" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf11-a20d-7ebf-2abc" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
     <entryLink id="f82b-941d-5655-6d15" name="Stanley Bartlett" hidden="false" collective="false" import="true" targetId="fa96-7128-7a94-6e94" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ac7-891b-385e-95f2" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="7ac7-891b-385e-95f2" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf11-a20d-7ebf-2abc" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
@@ -108,9 +123,14 @@
     <entryLink id="4de7-dc28-aae6-f984" name="Shira Calpurnia" hidden="false" collective="false" import="true" targetId="661c-33d9-1893-3eb2" type="selectionEntry">
       <modifiers>
         <modifier type="set" field="hidden" value="true">
-          <conditions>
-            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c55-d5d4-eaaf-08f7" type="equalTo"/>
-          </conditions>
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="2c55-d5d4-eaaf-08f7" type="equalTo"/>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cf11-a20d-7ebf-2abc" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
         </modifier>
       </modifiers>
     </entryLink>
@@ -130,7 +150,7 @@
     <entryLink id="a652-90a0-3a60-0ae8" name="Arbites Chimera" hidden="false" collective="false" import="true" targetId="f0a1-9924-e092-9196" type="selectionEntry"/>
     <entryLink id="e20d-b61b-f1bd-48e0" name="Arbites Valkyrie" hidden="false" collective="false" import="true" targetId="3205-7893-0b46-3fa7" type="selectionEntry"/>
     <entryLink id="5f4d-112b-ccf3-5f31" name="Precinct Choice" hidden="false" collective="false" import="true" targetId="8432-91c2-e6c7-8f6f" type="selectionEntry"/>
-    <entryLink id="8df7-3fe8-11fe-52f3" name="Artefacts of Righteousness" hidden="false" collective="false" import="true" targetId="c775-96d9-1ced-bc2c" type="selectionEntry"/>
+    <entryLink id="8df7-3fe8-11fe-52f3" name="Artifacts of Righteousness" hidden="false" collective="false" import="true" targetId="c775-96d9-1ced-bc2c" type="selectionEntry"/>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2616-6bcf-738c-5029" name="Judge" hidden="false" collective="false" import="true" type="unit">
@@ -3854,6 +3874,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -3885,6 +3910,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
         <cost name="pts" typeId="points" value="65.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="765d-1271-73d1-1110" name="Multi-laser" hidden="false" collective="false" import="true" type="upgrade">
@@ -4007,6 +4033,8 @@
           </infoLinks>
           <costs>
             <cost name="pts" typeId="points" value="20.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4046,6 +4074,8 @@
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="24.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="701f-431a-199f-8ceb" name="2 Multiple rocket pods" hidden="false" collective="false" import="true" type="upgrade">
@@ -4063,6 +4093,8 @@
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="16.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4071,6 +4103,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
         <cost name="pts" typeId="points" value="105.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8432-91c2-e6c7-8f6f" name="Precinct Choice" hidden="false" collective="false" import="true" type="upgrade">
@@ -4084,6 +4117,11 @@
       <entryLinks>
         <entryLink id="a45b-3950-fa78-98d8" name="Precinct" hidden="false" collective="false" import="true" targetId="cf11-a20d-7ebf-2abc" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c775-96d9-1ced-bc2c" name="Artifacts of Righteousness" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -4100,6 +4138,11 @@
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="824e-af07-a3af-dc88" name="Lord Marshal" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -4108,6 +4151,8 @@
       </constraints>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4316,6 +4361,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="2c55-d5d4-eaaf-08f7" name="Hydraphur" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -4325,6 +4375,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="15e2-669a-06a7-4b41" name="Solomon" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -4334,6 +4389,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c614-5f5e-a936-4df9" name="Mandos" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -4343,6 +4403,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="7ac7-891b-385e-95f2" name="Triton" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -4352,6 +4417,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1aee-6ebb-1727-fb26" name="Scintilla" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -4361,6 +4431,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -4420,6 +4495,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e59a-f48c-f42a-2708" name="Bulwark of Adamantium" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4439,6 +4519,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="99aa-e0ca-262b-3231" name="Maxim Pistol" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4498,6 +4583,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="1b86-1aa4-96c0-f8a9" name="Gavel of the Court" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4527,6 +4617,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="09aa-8ed4-dac8-cf7f" name="Bindings of the Chastener" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -4539,6 +4634,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c985-89ff-9e0a-8911" name="Firestarter" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4558,6 +4658,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="9960-1e78-f444-2291" name="Shield of Bellarya" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4582,6 +4687,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="fb1b-a98c-cb93-a298" name="Sword of Justice" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4611,6 +4721,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="e260-fd6c-6849-7c1b" name="Helm of the Canis-Alpha" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4630,6 +4745,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="71c5-2eda-61ea-f0de" name="Schindler&apos;s Judgement" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4660,6 +4780,11 @@ dice roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d715-197e-3b71-a017" name="Backbreaker Grenades" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4684,6 +4809,11 @@ dice roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="df5f-357c-cf3e-043a" name="The Purifier" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -4713,6 +4843,11 @@ dice roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -4725,11 +4860,15 @@ dice roll.</characteristic>
         <selectionEntry id="0752-aa24-5075-1f82" name="2 Extra Antiquities" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
         <selectionEntry id="d994-547e-ca7d-d123" name="1 Extra Antiquity" hidden="false" collective="false" import="true" type="upgrade">
           <costs>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
@@ -4762,6 +4901,11 @@ dice roll.</characteristic>
               <infoLinks>
                 <infoLink id="e755-998f-e85b-ca3e" name="Urban Suppression Expert" hidden="false" targetId="8ae5-624a-cd7a-efa7" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="7509-d0e5-9452-1a5c" name="Righteous Hatred - Scintilla" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -4774,6 +4918,11 @@ dice roll.</characteristic>
               <infoLinks>
                 <infoLink id="547a-f0ee-defd-4f89" name="Righteous Hatred" hidden="false" targetId="b089-1e13-6cba-e66d" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="90fa-3162-7618-9396" name="Dogged Survivor - Hydraphur" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -4786,6 +4935,11 @@ dice roll.</characteristic>
               <infoLinks>
                 <infoLink id="ae9c-15b4-69a0-a521" name="Dogged Survivor" hidden="false" targetId="b7db-1eae-6977-903a" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="d39b-5328-7eb1-1bf3" name="Face of Justice - Mandos" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -4798,6 +4952,11 @@ dice roll.</characteristic>
               <infoLinks>
                 <infoLink id="f492-82ef-a8be-401f" name="Face of Justice" hidden="false" targetId="7ba0-6d64-72e6-c2c0" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="b8d3-7f68-0323-e18a" name="Know Thine Enemy - Triton" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -4810,6 +4969,11 @@ dice roll.</characteristic>
               <infoLinks>
                 <infoLink id="74c0-db0d-9eb3-f7e8" name="Know Thine Enemy" hidden="false" targetId="b55f-8ee2-b00a-5484" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="477e-5a0d-b0b2-cb7b" name="With Highest Honour - Solomon" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -4828,6 +4992,8 @@ dice roll.</characteristic>
               </profiles>
               <costs>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="1.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -4845,6 +5011,11 @@ dice roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="9eca-84d3-2858-c11e" name="2. Force of Action" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4854,11 +5025,21 @@ dice roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a0ee-c773-4628-678c" name="3. Implacable Advance" hidden="false" collective="false" import="true" type="upgrade">
               <infoLinks>
                 <infoLink id="6a29-2c8f-8cfc-dbdc" name="Implacable Advance" hidden="false" targetId="acb1-98e1-8286-4a8d" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="a251-e97b-8052-70f6" name="4. Bringer of Judgement" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4868,6 +5049,11 @@ dice roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ebf3-2f54-afe6-88a0" name="5. Unbreakable Will" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4877,6 +5063,11 @@ dice roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e651-7600-b568-9b9d" name="6. Adamantium Faith" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -4886,6 +5077,11 @@ dice roll.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
