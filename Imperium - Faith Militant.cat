@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="8be3-6552-ea52-71ec" name="Imperium - Faith Militant" revision="1" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="" authorUrl="" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="128" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="8be3-6552-ea52-71ec" name="Imperium - Faith Militant" revision="2" battleScribeVersion="2.03" authorName="BSData Developers" authorContact="https://github.com/Mad-Spy/40kHomeBrew" authorUrl="https://github.com/Mad-Spy/40kHomeBrew" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="128" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <readme>Rework of Adepta Sororitas to include content from https://1d4chan.org/wiki//tg/_Codex_Supplement_-_Faith_Militant</readme>
   <publications>
     <publication id="d124-b283-pubN67455" name="Index: Imperium 2"/>
     <publication id="d124-b283-pubN72234" name="Codex: Adepta Sororitas"/>
@@ -10188,6 +10189,9 @@ When a model from your army with this relic unleashes the holy flames, after its
               </characteristics>
             </profile>
           </profiles>
+          <infoLinks>
+            <infoLink id="1d3d-d876-89b2-4594" name="Divine Light of Sollex" hidden="false" targetId="ead2-0578-655b-bceb" type="infoGroup"/>
+          </infoLinks>
           <costs>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -10519,6 +10523,64 @@ When a Morale test is taken for a unit with this Sacred Rite, you can re-roll th
         <infoLink id="3fcb-a2fa-7e82-de29" name="Acts of Faith" hidden="false" targetId="6d3f2230-86ac-8ae9-caaf-086dc960e681" type="rule"/>
         <infoLink id="d743-f6c3-64e4-26f6" name="Sacred Rites" hidden="false" targetId="eac3-8d18-c0ab-a2c0" type="rule"/>
         <infoLink id="2435-947b-a94d-b9ba" name="Shield of Faith" hidden="false" targetId="58e0-6802-a36d-babe" type="rule"/>
+      </infoLinks>
+    </infoGroup>
+    <infoGroup id="ead2-0578-655b-bceb" name="Divine Light of Sollex" hidden="false">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="cfc5-43e4-b02e-d1f9" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="59f2-3221-f5aa-eb93" name="Twin Hot-shot lasgun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Rapid Fire 2</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dae6-4348-71dd-3303" name="Twin Hot-shot volley gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 8</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="28ad-6a54-9516-1065" name="Hot-shot volley gun" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 4</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="93e2-f31f-ce36-d007" name="Divine Light of Sollex" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If you&apos;re playing an open play play game with ORDER OF THE GUIDING LIGHT models, you can declare that you&apos;re using this rule before the game begins. If you do so, bolt weapons wielded by ORDER OF THE GUIDING LIGHT models are replaced as follows:
+- Bolt pistols are replaced by hot-shot laspistols.
+- Boltguns are replaced by hot-shot lasguns.
+- Storm bolters are replaced by twin hot-shot lasguns.
+- Heavy bolters are replaced by hot-shot volley guns.
+- Twin heavy bolters are replaced by twin hot-shot
+volley guns.
+
+For the purposes of relics and strategems, the above weapons are treated as bolt weapons (as described on page 56). The profiles for these weapons can be found in the Weapons of the Faith section on page 57.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="120e-add6-e6c1-335c" name="Hot-shot Lasgun" hidden="false" targetId="f520-ae1d-d755-7ab9" type="profile"/>
+        <infoLink id="70c4-483d-b76b-bced" name="Hot-shot Laspistol" hidden="false" targetId="4609-79eb-7505-68a5" type="profile"/>
       </infoLinks>
     </infoGroup>
   </sharedInfoGroups>
