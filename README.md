@@ -1,4 +1,4 @@
-40k Homebrew Catalogues for the Warhammer 40,000 8th Edition data set.
+40k Homebrew Catalogues for the Warhammer 40,000 data sets.
 ==================
 
 [![GitHub release](https://img.shields.io/github/release/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/Mad-Spy/40kHomebrew/releases/latest)
@@ -18,9 +18,9 @@ These files are for the user-created Codexes below:
 [Codex - Fallen Sororitas](https://1d4chan.org/wiki/Codex_-_Fallen_Sororitas)
 
 ---------------------
-To use these files, first download the **40k 8th Edition** data set within Battlescribe. You may need to select "Show Archived Repositories" in order to see this data set.
+To use these files, first download the relevant 40k data set within Battlescribe. You may need to select "Show Archived Repositories" in order to see the 8th edition data set.
 
-Next, download the .cat file(s) you want from here.
+Next, download the .cat file(s) you want from here. The ones with 8th at the end are for the 8th edition dataset.
 
 You then need to manually copy the file into your Battlescribe data directory.
 
