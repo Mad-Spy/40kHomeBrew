@@ -18,7 +18,7 @@ These files are for the user-created Codexes below:
 [Codex - Fallen Sororitas](https://1d4chan.org/wiki/Codex_-_Fallen_Sororitas)
 
 ---------------------
-To use these files, first download the 40k data set within Battlescribe.
+To use these files, first download the **40k 8th Edition** data set within Battlescribe. You may need to select "Show Archived Repositories" in order to see this data set.
 
 Next, download the .cat file(s) you want from here.
 
