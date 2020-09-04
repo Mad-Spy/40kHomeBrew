@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15e0-c8e4-ca16-cd08" name="Imperium - Adeptus Arbites" revision="5" battleScribeVersion="2.03" library="false" gameSystemId="5335-9d49-c85e-4817" gameSystemRevision="128" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="15e0-c8e4-ca16-cd08" name="Imperium - Adeptus Arbites" revision="6" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="153" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4156-221d-8681-cbce" name="Codex: Adeptus Arbites"/>
   </publications>
@@ -275,9 +275,9 @@
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
-    <selectionEntry id="446a-11e0-452a-4927" name="Command baton" hidden="false" collective="false" import="true" type="upgrade">
+    <selectionEntry id="446a-11e0-452a-4927" name="Command truncheon" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
-        <profile id="0170-a2da-99b8-ad37" name="Command baton" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+        <profile id="0170-a2da-99b8-ad37" name="Command truncheon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
           <characteristics>
             <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
             <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
@@ -1391,7 +1391,7 @@
         </profile>
         <profile id="ebc5-c38a-055b-ae6a" name="Conversion Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Luthir Goreman has a 4+ invulnerable save.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model has a 4+ invulnerable save.</characteristic>
           </characteristics>
         </profile>
         <profile id="593a-c0f5-8f89-f4e8" name="No Tolerance for Weakness" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1528,7 +1528,7 @@
         </profile>
         <profile id="6a39-39a7-a4d0-60cd" name="Custodian Senioris" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever a friendly PENAL LEGIONNAIRES unit within 6” of Catarina Igazi fails a Morale test, that unit suffers D3 Mortal wounds. The test is then considered to be passed. Catarina Igazi can use this ability once per Morale phase.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a friendly PENAL LEGIONNAIRES unit within 6” of Catarina Igazi fails a Morale test, she may choose to activate her remote detonator. If she does, that unit suffers D3 Mortal wounds. The test is then considered to be passed. Catarina Igazi can use this ability once per Morale phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="34a5-11ea-73ea-39a0" name="Bulwark of Redemption" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1538,7 +1538,7 @@
         </profile>
         <profile id="dfdc-9969-7f85-ccba" name="Adaptive Tactician" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All friendly MANDOS units within 6” of Catarina Igazi can perform Heroic Interventions as if they were a  CHARACTER.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All friendly MANDOS units within 6” of Catarina Igazi can perform Heroic Interventions as if they were a CHARACTER.</characteristic>
           </characteristics>
         </profile>
         <profile id="7bed-07c3-a6a9-2683" name="Mountain Formation" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1593,7 +1593,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each hit roll of 6+ with this weapon causes 3 hits rather than 1.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When resolving an attack made with this weapon, an unmodified hit roll of 6 scores 2 additional hits.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1633,7 +1633,7 @@
         </profile>
         <profile id="6e79-824d-8f6f-3cfa" name="Frontier Justice" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units within 6” of Stanley Bartlett add 2 to the dice roll of all Morale tests.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units within 6” of Stanley Bartlett add 1 to the dice roll of all Morale tests. In addition, enemy units within 6” of Stanley Bartlett are always treated as being below Half-strength when taking Combat Attrition tests.</characteristic>
           </characteristics>
         </profile>
         <profile id="2017-45e1-4dc8-9fb0" name="Scarred Survivor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1714,7 +1714,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">*</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">*</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Each time a target is hit by this weapon, roll 2D6 – if the roll is equal to or greater than the target unit&apos;s Leadership, it cannot take any actions until the start of your next Shooting phase. If the result of the roll is 10 or greater, the target also suffers a mortal wound. This weapon has no effect on units with the VEHICLE or TITANIC keywords.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast. If a unit is hit by this weapon, roll 2D6 – if the roll is equal to or greater than the target unit’s Leadership, it suffers D3 mortal wounds.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -1744,7 +1744,7 @@
             </profile>
             <profile id="969a-7ede-9116-40c1" name="Loyalty Unto Death" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When resolving an attack made against a TRITON INFANTRY unit whilst that unit is within 3&quot; of a friendly TRITON CYBER-MASTIFF unit, if the wound roll is successful, you can roll one D6; on  a 2+ that CYBER-MASTIFF unit suffers 1 mortal wound and the attack sequence ends.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If a friendly TRITON CYBER-MASTIFF unit is within 3” of a friendly TRITON INFANTRY unit when an enemy attack successfully wounds it, you can allocate that wound to the CYBERMASTIFF unit instead of the target. If you do, that CYBER-MASTIFF suffers a mortal wound instead of the normal damage.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -5176,16 +5176,16 @@ dice roll.</characteristic>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1957-bb0e-3a5d-b980" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
-        <entryLink id="ab72-59e0-ef30-08db" name="Warlord Traits (CA)" hidden="false" collective="false" import="true" targetId="f673-3d9b-bb1b-377f" type="selectionEntryGroup"/>
       </entryLinks>
     </selectionEntryGroup>
   </sharedSelectionEntryGroups>
   <sharedRules>
     <rule id="d599-c32a-9ed1-8fc0" name="Choke Weapon" publicationId="4156-221d-8681-cbce" page="48" hidden="false">
-      <description>This weapon wounds all enemy units on a roll of 4+ unless the target has the VEHICLE or TITANIC keyword, in which case this weapon will wound on a 6+. Any units which suffer an unsaved wound from this weapon must subtract 1 from all hit rolls until the start of your next turn.</description>
+      <description>This weapon wounds all enemy units on a roll of 4+ unless the target has the VEHICLE or TITANIC keyword, in which case this weapon will wound on a 6+. Any units which suffer any unsaved wounds from this weapon must subtract 1 from all hit rolls until the start of your next turn.</description>
     </rule>
     <rule id="274b-2036-d019-4007" name="Rapid Response" publicationId="4156-221d-8681-cbce" page="48" hidden="false">
-      <description>Once both sides are deployed but before the first player takes their turn, this unit can move up to 9&quot; from where it was deployed. This unit cannot end that move within 9&quot; of any enemy models. If all of the models embarked on a transport vehicle have this ability, then the transport vehicle can make the move instead. If your opponent has any units with similar abilities, roll off; starting with the winner of the roll off, take it in turns to resolve these abilities.</description>
+      <description>At the start of the first battle round, before the first turn begins, this unit can move up to 9” as if it were your
+Movement phase. This unit must end that move more than 9&quot; away from any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.</description>
     </rule>
     <rule id="db57-6880-50c1-159e" name="Guardians of the Law" hidden="false">
       <description>If your army is Battle-forged, all Troops units in ADEPTUS ARBITES Detachments gain this ability. Such a unit that is within range of an objective marker (as specified in the mission) controls that objective marker even if there are more enemy models within range of it. If an enemy unit within range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models within range of it as normal.</description>
@@ -5209,7 +5209,7 @@ dice roll.</characteristic>
         <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
         <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Choke Weapon</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Choke Weapon, Blast</characteristic>
       </characteristics>
     </profile>
     <profile id="2243-43c8-0765-fb39" name="Turbo-boost" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
