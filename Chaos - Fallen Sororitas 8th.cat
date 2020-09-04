@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="5809-d9c4-364c-743c" name="Chaos - Fallen Sororitas" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="5335-9d49-c85e-4817" gameSystemRevision="128" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="5809-d9c4-364c-743c" name="Chaos - Fallen Sororitas" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="5335-9d49-c85e-4817" gameSystemRevision="130" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="63e0-063f-5439-30e0" name="D3 Roll">
       <characteristicTypes>
@@ -62,7 +62,7 @@
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-            <characteristic name="W" typeId="f330-5e6e-4110-0978">6</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">5</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
@@ -2561,7 +2561,7 @@ A Sacrificial Slave is represented by a Sacrificial Slave model, but does not co
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="14.0"/>
+                <cost name="pts" typeId="points" value="13.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2596,7 +2596,7 @@ A Sacrificial Slave is represented by a Sacrificial Slave model, but does not co
                 </selectionEntry>
               </selectionEntries>
               <costs>
-                <cost name="pts" typeId="points" value="14.0"/>
+                <cost name="pts" typeId="points" value="13.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2968,7 +2968,7 @@ A Sacrificial Slave is represented by a Sacrificial Slave model, but does not co
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D3</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
@@ -2991,7 +2991,7 @@ A Sacrificial Slave is represented by a Sacrificial Slave model, but does not co
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
-                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
                   </characteristics>
                 </profile>
@@ -3058,12 +3058,12 @@ A Sacrificial Slave is represented by a Sacrificial Slave model, but does not co
         <profile id="a978-bf1c-c669-319b" name="Flesh Shaper" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
-            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
-            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">7+</characteristic>
           </characteristics>
@@ -3320,12 +3320,12 @@ A Sacrificial Slave is represented by a Sacrificial Slave model, but does not co
         <profile id="0bda-d1e9-746c-95dc" name="Lampad" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">7&quot;</characteristic>
-            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
             <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
             <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
             <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
             <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
-            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">7+</characteristic>
           </characteristics>
@@ -3346,7 +3346,6 @@ A Sacrificial Slave is represented by a Sacrificial Slave model, but does not co
       </profiles>
       <infoLinks>
         <infoLink id="8d5e-e3cd-bd72-0414" name="Sororitas Rules" hidden="false" targetId="b07c-d4d5-28bf-caaf" type="infoGroup"/>
-        <infoLink id="56b9-560c-9865-3186" name="Corrupted Rosarius" hidden="false" targetId="06c6-1863-9e02-ca9e" type="profile"/>
       </infoLinks>
       <categoryLinks>
         <categoryLink id="236a-2ad9-b616-6d5c" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
@@ -3756,7 +3755,7 @@ A Sacrificial Slave is represented by a Sacrificial Slave model, but does not co
                   <characteristics>
                     <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
                     <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault D3</characteristic>
-                    <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
                     <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits its target. Units do not receive the benefit of cover to their saving throws for attacks made with this weapon. Units that suffer one or more unsaved wounds from this weapon cannot fire Overwatch for the rest of the turn.</characteristic>
@@ -5406,6 +5405,7 @@ D3 Result
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
         <cost name="pts" typeId="points" value="62.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1cd8-72b0-f2f5-21ed" name="Fallen Immolator" hidden="false" collective="false" import="true" type="model">
@@ -5611,6 +5611,8 @@ D3 Result
               </profiles>
               <costs>
                 <cost name="pts" typeId="points" value="30.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -5641,6 +5643,7 @@ D3 Result
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" typeId="points" value="67.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0e37-24e1-e5ed-9ffa" name="Fallen Repressor" hidden="false" collective="false" import="true" type="model">
@@ -5842,6 +5845,11 @@ D3 Result
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
@@ -5871,6 +5879,7 @@ D3 Result
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" typeId="points" value="88.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f85b-1d15-7e5e-6c3d" name="Noctilith Crown" hidden="false" collective="false" import="true" type="model">
@@ -5919,11 +5928,17 @@ D3 Result
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="pts" typeId="points" value="100.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="1b15-d0fc-18ef-e825" name="Fane of Slaanesh" hidden="false" collective="false" import="true" type="model">
@@ -5961,6 +5976,7 @@ If that CHARACTER has a relic, they can sacrifice that instead of suffering a mo
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="pts" typeId="points" value="50.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0a0b-6ec5-1282-f6a6" name="Curios of Slaanesh" hidden="false" collective="false" import="true" type="upgrade">
@@ -5981,16 +5997,25 @@ If that CHARACTER has a relic, they can sacrifice that instead of suffering a mo
             <selectionEntry id="b564-2ce3-29d6-e9e6" name="1 Extra Relic" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="33ef-e39a-f566-95f0" name="2 Extra Relics" hidden="false" collective="false" import="true" type="upgrade">
               <costs>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </selectionEntries>
   <sharedSelectionEntries>
@@ -6187,6 +6212,11 @@ If that CHARACTER has a relic, they can sacrifice that instead of suffering a mo
       <categoryLinks>
         <categoryLink id="7aaf-043f-f622-3b9c" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
       </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
@@ -6408,6 +6438,11 @@ mortal wounds inflicted is D6 instead if the power is manifested with a Psychic 
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6c0f-6bd8-3d0c-9417" name="2. Elegant Swiftness" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -6417,6 +6452,11 @@ mortal wounds inflicted is D6 instead if the power is manifested with a Psychic 
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="41cb-68c4-3f79-cce4" name="3. Fatal Precision" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -6426,6 +6466,11 @@ mortal wounds inflicted is D6 instead if the power is manifested with a Psychic 
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="adec-3281-dc98-6d8b" name="4. Priest Slayer" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -6436,6 +6481,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="e97c-6cac-9125-9a92" name="5. Paragon of Depravity" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -6445,6 +6495,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="75b2-034f-1034-b5cd" name="6. Unholy Seductress" hidden="false" collective="false" import="true" type="upgrade">
               <profiles>
@@ -6454,6 +6509,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="c66e-48a3-59ba-fc2e" name="Chill Aura" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6466,6 +6526,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               <infoLinks>
                 <infoLink id="a8e1-bd5b-7c0c-01f8" name="Chill Aura" hidden="false" targetId="e8da-c3b6-df19-37a7" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="314b-7946-1057-7364" name="Eccentric Mutation" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6482,6 +6547,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="5a8c-208f-cb25-053d" name="Mistress of Pain" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6498,6 +6568,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="865a-9af1-2f96-a50e" name="Song of Slaanesh" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6510,6 +6585,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               <infoLinks>
                 <infoLink id="057a-f040-f757-e4f8" name="Song of Slaanesh" hidden="false" targetId="0a48-2647-c63c-df0b" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="ca06-00a8-56ae-e1ad" name="Soul Eater" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6522,6 +6602,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               <infoLinks>
                 <infoLink id="13b6-49b6-ea3f-6c82" name="Soul Eater" hidden="false" targetId="3979-5037-584b-a0ea" type="profile"/>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="1659-1717-6027-54ae" name="Supreme Ambition" hidden="true" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -6531,6 +6616,18 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
                   </conditions>
                 </modifier>
               </modifiers>
+              <profiles>
+                <profile id="1bc6-3692-6cac-65c5" name="Supreme Ambition" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All aura abilities on this Warlord&apos;s datasheet that would normally only affect &lt;SECT&gt; units (e.g. Mistress of Traitors, Siren&apos;s Song) affect all FALLEN SORORITAS units in the same detachment as well.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
@@ -6596,6 +6693,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="0ca7-9223-b5d7-4980" name="The Lash of Torment" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6620,6 +6722,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="d9b2-de9f-9f7d-9be1" name="The Needle of Desire" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6644,6 +6751,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="fbc1-d803-eb28-6f5f" name="Pain Vents" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6668,6 +6780,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="c6bc-6d3d-7ee7-959c" name="The Book of Carpathius" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6680,6 +6797,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="71ef-c735-a180-13c2" name="The Icon of Silence" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6699,6 +6821,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="eb97-3b49-af43-1428" name="The Rapturous Standard" hidden="false" collective="false" import="true" type="upgrade">
           <constraints>
@@ -6711,6 +6838,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="eac8-9487-f36c-f7ce" name="Xor&apos;innath" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6726,10 +6858,15 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
           <profiles>
             <profile id="fe49-73af-2054-f4a5" name="Xor&apos;innath" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this Relic can still shoot and charge in a turn in which they Advance. Additionally, a model with this Relic adds 2 to Charge rolls.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a model with this Relic Advances, add 6&quot; to its Move characteristic for that Movement phase instead of rolling a die. A model with this Relic can still charge in a turn in which they Advanced.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="51ce-c4c0-16c8-3bff" name="Anguish" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6754,6 +6891,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5c57-5eb8-3f82-52d4" name="The Screaming Cuirass" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6778,6 +6920,11 @@ with the CHAPLAIN, PRIEST, or ADEPTUS MINISTORUM keyword.</characteristic>
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="6556-de2d-cd7e-66be" name="Damnation grenades" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6805,6 +6952,11 @@ AELDARI model, the target suffers D3 mortal wounds instead of the listed Damage.
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="a696-c2ba-16a6-7b93" name="The Eye of Malediction" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6821,6 +6973,11 @@ AELDARI model, the target suffers D3 mortal wounds instead of the listed Damage.
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b854-1e76-00ea-19df" name="The Imprisoner" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6847,6 +7004,11 @@ AELDARI model, the target suffers D3 mortal wounds instead of the listed Damage.
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="90fb-0419-0045-1a2b" name="The Needle Gauntlet" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6868,6 +7030,11 @@ AELDARI model, the target suffers D3 mortal wounds instead of the listed Damage.
               </conditionGroups>
             </modifier>
           </modifiers>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="79d1-dc62-9fab-7b06" name="The Serpent&apos;s Fang" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -6894,6 +7061,11 @@ AELDARI model, the target suffers D3 mortal wounds instead of the listed Damage.
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
@@ -7000,7 +7172,7 @@ These modifiers are included before calculating other modifiers. Unless otherwis
     </profile>
     <profile id="3979-5037-584b-a0ea" name="Soul Eater" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
       <characteristics>
-        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This Warlord re-rolls failed hit rolls for attacks made in the Fight phase against CHARACTERS. Each time this Warlord slays an enemy CHARACTER in the Fight phase, they regain one lost wound.</characteristic>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This Warlord re-rolls failed hit rolls for attacks made in the Fight phase against CHARACTERS. Each time this Warlord slays an enemy CHARACTER in the Fight phase, they regain D3 lost wounds.</characteristic>
       </characteristics>
     </profile>
     <profile id="e8da-c3b6-df19-37a7" name="Chill Aura" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
