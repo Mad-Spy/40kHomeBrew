@@ -20,7 +20,7 @@ These files are for the user-created Codexes below:
 ---------------------
 To use these files, first download the relevant 40k data set within Battlescribe. You may need to select "Show Archived Repositories" in order to see the 8th edition data set.
 
-Next, download the .cat file(s) you want from here. The ones with 8th at the end are for the 8th edition dataset.
+Next, download the .cat file(s) you want from here. Only Adeptus Arbites currently has a 9th edition file, as it's the only one which has had an update.
 
 You then need to manually copy the file into your Battlescribe data directory.
 
