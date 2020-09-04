@@ -151,46 +151,6 @@
     <entryLink id="e20d-b61b-f1bd-48e0" name="Arbites Valkyrie" hidden="false" collective="false" import="true" targetId="3205-7893-0b46-3fa7" type="selectionEntry"/>
     <entryLink id="5f4d-112b-ccf3-5f31" name="Precinct Choice" hidden="false" collective="false" import="true" targetId="8432-91c2-e6c7-8f6f" type="selectionEntry"/>
     <entryLink id="8df7-3fe8-11fe-52f3" name="Artifacts of Righteousness" hidden="false" collective="false" import="true" targetId="c775-96d9-1ced-bc2c" type="selectionEntry"/>
-    <entryLink id="d71e-569e-d09b-fd75" name="Inquisitor Greyfax" hidden="false" collective="false" import="true" targetId="9d0c-6df4-8f5d-5a34" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="0d44-fcd8-0126-2749" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="4ef0-d074-fd69-6306" name="Inquisitor Coteaz" hidden="false" collective="false" import="true" targetId="81d1-1b5f-e97c-35ba" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="7196-e22e-a4d3-2382" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="50ef-caa2-7172-587d" name="Inquisitor Eisenhorn" hidden="false" collective="false" import="true" targetId="86b2-7c8b-a051-60ca" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="c5c9-1c60-5a22-2399" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1d02-f272-a685-8743" name="Inquisitor" hidden="false" collective="false" import="true" targetId="0b13-8c12-cbea-300f" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="ffec-2e75-784b-b109" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="c676-bdec-e5d4-907c" name="Inquisitor Karamazov" hidden="false" collective="false" import="true" targetId="59d5-160c-f21d-6e49" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="d0a7-7aa9-bc7a-b646" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="1759-17fe-56ac-631c" name="Inquisitor-Lord Hector Rex" hidden="false" collective="false" import="true" targetId="f34a-e3be-53b1-d783" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="7470-5ecf-7f27-02b0" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="50ea-63c1-0fc1-7732" name="Inquisitor-Lord Solomon Lok" hidden="false" collective="false" import="true" targetId="027b-c552-db2c-f5f0" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="f336-70de-0f20-97bf" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-    </entryLink>
-    <entryLink id="3269-3a9f-6a0c-479f" name="Ordo Malleus Inquisitor in Terminator Armour" hidden="false" collective="false" import="true" targetId="ba53-1df7-404e-e9c9" type="selectionEntry">
-      <categoryLinks>
-        <categoryLink id="546d-c62b-9d91-b323" name="New CategoryLink" hidden="false" targetId="ff36a6f3-19bf-4f48-8956-adacfd28fe74" primary="true"/>
-      </categoryLinks>
-    </entryLink>
   </entryLinks>
   <sharedSelectionEntries>
     <selectionEntry id="2616-6bcf-738c-5029" name="Judge" hidden="false" collective="false" import="true" type="unit">
@@ -252,7 +212,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="pts" typeId="points" value="45.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -308,7 +268,7 @@
         </profile>
       </profiles>
       <costs>
-        <cost name="pts" typeId="points" value="10.0"/>
+        <cost name="pts" typeId="points" value="12.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -376,7 +336,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-        <cost name="pts" typeId="points" value="18.0"/>
+        <cost name="pts" typeId="points" value="21.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -468,7 +428,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="pts" typeId="points" value="54.0"/>
+        <cost name="pts" typeId="points" value="65.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -618,7 +578,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -705,7 +665,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="8.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -741,7 +701,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -772,7 +732,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -797,7 +757,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -822,7 +782,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -958,7 +918,11 @@
               </constraints>
               <entryLinks>
                 <entryLink id="95c6-2a3c-f47c-bd50" name="Shotgun" hidden="false" collective="false" import="true" targetId="2094-c9a6-a426-0970" type="selectionEntry"/>
-                <entryLink id="8a07-8d60-61d1-49d4" name="Boltgun" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry"/>
+                <entryLink id="8a07-8d60-61d1-49d4" name="Boltgun" hidden="false" collective="false" import="true" targetId="b61f-a3c1-827d-c5b6" type="selectionEntry">
+                  <costs>
+                    <cost name="pts" typeId="points" value="1.0"/>
+                  </costs>
+                </entryLink>
                 <entryLink id="1778-d86c-e9a3-0f1a" name="Lasgun" hidden="false" collective="false" import="true" targetId="fd87-854b-d284-184a" type="selectionEntry"/>
                 <entryLink id="9fb4-f4e2-5ca9-82ac" name="Shock maul" hidden="false" collective="false" import="true" targetId="6d15-6391-5629-f8f9" type="selectionEntry"/>
               </entryLinks>
@@ -980,7 +944,7 @@
             <entryLink id="d767-3c50-85f5-b6ba" name="Choke grenades" hidden="false" collective="false" import="true" targetId="e0aa-5ca8-1754-1997" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="4.0"/>
+            <cost name="pts" typeId="points" value="5.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -1028,7 +992,7 @@
                 <entryLink id="22c6-589c-a9a8-2eb7" name="Choke grenades" hidden="false" collective="false" import="true" targetId="30c5-bd8e-0841-5863" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -1053,7 +1017,7 @@
                 <entryLink id="f720-7fa0-e96d-61fc" name="Choke grenades" hidden="false" collective="false" import="true" targetId="30c5-bd8e-0841-5863" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -1084,7 +1048,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -1112,7 +1076,7 @@
                 <entryLink id="38dd-f677-b390-422b" name="Choke grenades" hidden="false" collective="false" import="true" targetId="30c5-bd8e-0841-5863" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -1137,7 +1101,7 @@
                 <entryLink id="ba3b-7e0d-c1fa-34d8" name="Choke grenades" hidden="false" collective="false" import="true" targetId="30c5-bd8e-0841-5863" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="4.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -1281,7 +1245,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
+            <cost name="pts" typeId="points" value="6.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
           </costs>
@@ -1362,7 +1326,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="pts" typeId="points" value="35.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1504,7 +1468,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
-        <cost name="pts" typeId="points" value="110.0"/>
+        <cost name="pts" typeId="points" value="115.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1608,7 +1572,7 @@
         <entryLink id="9c31-738c-2eb8-4a70" name="Warlord" hidden="false" collective="false" import="true" targetId="fe23-f1e4-987b-e436" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="65.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -1778,7 +1742,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="40.0"/>
+            <cost name="pts" typeId="points" value="45.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -1798,7 +1762,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="pts" typeId="points" value="110.0"/>
+        <cost name="pts" typeId="points" value="115.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1903,7 +1867,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-        <cost name="pts" typeId="points" value="25.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -1992,7 +1956,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
-        <cost name="pts" typeId="points" value="30.0"/>
+        <cost name="pts" typeId="points" value="35.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2082,7 +2046,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="8.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -2118,7 +2082,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2143,7 +2107,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2170,7 +2134,7 @@
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
@@ -2289,7 +2253,7 @@
             </entryLink>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="6.0"/>
+            <cost name="pts" typeId="points" value="8.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -2344,7 +2308,7 @@
                 </entryLink>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts" typeId="points" value="8.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2409,7 +2373,7 @@
       <profiles>
         <profile id="15e5-f32f-ff73-06c5" name="Killer&apos;s Eye" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can fire its weapons at enemy CHARACTERS even if they are not the closest enemy model in the Shooting phase. In addition, whenever this model piles in or performs a Heroic Intervention, they can move towards the closest enemy CHARACTER instead of the closest enemy model.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When this model selects a target, you can ignore the Look Out, Sir rule. In addition, whenever this model piles in or performs a Heroic Intervention, they can move towards the closest enemy CHARACTER instead of the closest enemy model.</characteristic>
           </characteristics>
         </profile>
         <profile id="b1ae-5c23-174c-1547" name="Moving In Close" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -2451,7 +2415,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="6.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2535,7 +2499,7 @@
                 </infoLink>
               </infoLinks>
               <costs>
-                <cost name="pts" typeId="points" value="11.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2557,7 +2521,7 @@
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="3.0"/>
+                <cost name="pts" typeId="points" value="5.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -2591,7 +2555,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="pts" typeId="points" value="47.0"/>
+        <cost name="pts" typeId="points" value="55.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -2670,7 +2634,7 @@
                     </profile>
                   </profiles>
                   <costs>
-                    <cost name="pts" typeId="points" value="2.0"/>
+                    <cost name="pts" typeId="points" value="3.0"/>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                     <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
                   </costs>
@@ -2823,7 +2787,7 @@
               </constraints>
               <infoLinks>
                 <infoLink id="6600-b3b2-dfe5-4b87" name="Choke Weapon" hidden="false" targetId="d599-c32a-9ed1-8fc0" type="rule"/>
-                <infoLink id="3222-fa3a-a9c4-7416" name="Grenade cannon" hidden="false" targetId="4e7f-62d2-65ae-ee45" type="infoGroup"/>
+                <infoLink id="3222-fa3a-a9c4-7416" name="Grenade cannon" hidden="false" targetId="12e9-6f1c-f6c3-e3ab" type="infoGroup"/>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -2833,7 +2797,7 @@
             </selectionEntry>
           </selectionEntries>
           <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name="pts" typeId="points" value="12.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -2945,7 +2909,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
-        <cost name="pts" typeId="points" value="40.0"/>
+        <cost name="pts" typeId="points" value="45.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3019,7 +2983,7 @@
         <entryLink id="ab13-bee6-1ac3-3a08" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="aef2-52f8-759d-3943" type="selectionEntryGroup"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="35.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3098,7 +3062,7 @@
             <entryLink id="42e4-8084-8350-e33f" name="Choke grenades" hidden="false" collective="false" import="true" targetId="e0aa-5ca8-1754-1997" type="selectionEntry"/>
           </entryLinks>
           <costs>
-            <cost name="pts" typeId="points" value="13.0"/>
+            <cost name="pts" typeId="points" value="18.0"/>
             <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
           </costs>
@@ -3141,7 +3105,7 @@
                 <entryLink id="192a-033b-b783-5d5c" name="Choke grenades" hidden="false" collective="false" import="true" targetId="30c5-bd8e-0841-5863" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="13.0"/>
+                <cost name="pts" typeId="points" value="18.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -3161,7 +3125,7 @@
                 <entryLink id="ce01-16b7-7d21-e2e1" name="Choke grenades" hidden="false" collective="false" import="true" targetId="30c5-bd8e-0841-5863" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="13.0"/>
+                <cost name="pts" typeId="points" value="18.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -3200,7 +3164,7 @@
                 <entryLink id="b7f1-b5e8-7ad4-4f3b" name="Bike" hidden="false" collective="false" import="true" targetId="58be-95ed-2442-5b80" type="selectionEntry"/>
               </entryLinks>
               <costs>
-                <cost name="pts" typeId="points" value="13.0"/>
+                <cost name="pts" typeId="points" value="18.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -3307,7 +3271,7 @@
                 <selectionEntry id="b522-cc74-6572-3cc4" name="Grenade cannon" hidden="false" collective="false" import="true" type="upgrade">
                   <infoLinks>
                     <infoLink id="fc4e-ad40-baf1-a1fb" name="Choke Weapon" hidden="false" targetId="d599-c32a-9ed1-8fc0" type="rule"/>
-                    <infoLink id="d211-7540-3df0-f933" name="Grenade cannon" hidden="false" targetId="4e7f-62d2-65ae-ee45" type="infoGroup"/>
+                    <infoLink id="d211-7540-3df0-f933" name="Grenade cannon" hidden="false" targetId="12e9-6f1c-f6c3-e3ab" type="infoGroup"/>
                   </infoLinks>
                   <costs>
                     <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
@@ -3385,7 +3349,7 @@
         <infoLink id="ac7a-169a-7948-06f3" name="Twin grenade cannon" hidden="false" targetId="4e7f-62d2-65ae-ee45" type="infoGroup"/>
       </infoLinks>
       <costs>
-        <cost name="pts" typeId="points" value="24.0"/>
+        <cost name="pts" typeId="points" value="30.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3568,12 +3532,12 @@
                     <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
                     <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                     <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast</characteristic>
                   </characteristics>
                 </profile>
               </profiles>
               <costs>
-                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name="pts" typeId="points" value="15.0"/>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
               </costs>
@@ -3590,7 +3554,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
-        <cost name="pts" typeId="points" value="65.0"/>
+        <cost name="pts" typeId="points" value="75.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3672,7 +3636,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
-        <cost name="pts" typeId="points" value="65.0"/>
+        <cost name="pts" typeId="points" value="75.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -3766,7 +3730,7 @@
         <entryLink id="3435-4876-8239-c481" name="Dozer Ram" hidden="false" collective="false" import="true" targetId="55a1-388c-aa6e-fca2" type="selectionEntry"/>
       </entryLinks>
       <costs>
-        <cost name="pts" typeId="points" value="91.0"/>
+        <cost name="pts" typeId="points" value="100.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
@@ -3823,7 +3787,7 @@
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Choke Weapon</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast, Choke Weapon</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -3833,7 +3797,7 @@
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-        <cost name="pts" typeId="points" value="4.0"/>
+        <cost name="pts" typeId="points" value="5.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="f0a1-9924-e092-9196" name="Arbites Chimera" hidden="false" collective="false" import="true" type="unit">
@@ -3956,7 +3920,7 @@
       </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="6.0"/>
-        <cost name="pts" typeId="points" value="65.0"/>
+        <cost name="pts" typeId="points" value="70.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4149,7 +4113,7 @@
       </selectionEntryGroups>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="8.0"/>
-        <cost name="pts" typeId="points" value="105.0"/>
+        <cost name="pts" typeId="points" value="110.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
@@ -4459,7 +4423,7 @@
           <profiles>
             <profile id="3c2e-ca4a-07cb-8dff" name="Security Detail" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If any friendly CHARACTER is wounded by an enemy attack and is within 3” of a friendly HYDRAPHUR  INFANTRY model, roll a D6. On a 2+ you can allocate that wound to the HYDRAPHUR INFANTRY model instead of the target. If you do, the HYDRAPHUR INFANTRY suffers a mortal wound instead of resolving the damage normally.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If any friendly CHARACTER is wounded by an enemy attack and is within 3” of a friendly HYDRAPHUR INFANTRY model, roll a D6. On a 2+ you can allocate that wound to the HYDRAPHUR INFANTRY model instead of the target. If you do, the HYDRAPHUR INFANTRY suffers a mortal wound instead of resolving the damage normally.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4637,7 +4601,7 @@
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast.</characteristic>
               </characteristics>
             </profile>
             <profile id="f87f-4e2e-c945-ec62" name="Maxim Pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -4771,7 +4735,7 @@
           <profiles>
             <profile id="0e40-3518-a908-35e3" name="Shield of Bellarya" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
               <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer&apos;s invulnerable save is increased to 4+. In addition, whenever you make an unmodified saving roll of 6+ when making an invulnerable save for this model, the unit which made that attack suffers a mortal wound.</characteristic>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The bearer has a 4+ invulnerable save. In addition, whenever you make an unmodified saving roll of 6+ when making an invulnerable save for this model, the unit which made that attack suffers a mortal wound.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4839,7 +4803,7 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="71c5-2eda-61ea-f0de" name="Schindler&apos;s Judgement" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="71c5-2eda-61ea-f0de" name="Shiendlin&apos;s Judgement" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -4856,15 +4820,14 @@
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e574-2817-a4f0-b7f0" type="max"/>
           </constraints>
           <profiles>
-            <profile id="6e1f-dcee-c5ec-8e22" name="Schindler&apos;s Judgement" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="6e1f-dcee-c5ec-8e22" name="Shiendlin&apos;s Judgement" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
                 <characteristic name="S" typeId="59b1-319e-ec13-d466">+2</characteristic>
                 <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
                 <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
-                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">At the beginning of the Morale phase, select an enemy INFANTRY unit within 6” of this model. That unit adds 1 to their
-dice roll.</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">At the beginning of the Morale phase, select an enemy INFANTRY unit within 6” of this model. That unit adds 1 to their dice roll.</characteristic>
               </characteristics>
             </profile>
           </profiles>
@@ -4903,7 +4866,7 @@ dice roll.</characteristic>
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="df5f-357c-cf3e-043a" name="The Purifier" hidden="false" collective="false" import="true" type="upgrade">
+        <selectionEntry id="df5f-357c-cf3e-043a" name="Purifier" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditionGroups>
@@ -4920,7 +4883,7 @@ dice roll.</characteristic>
             <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e92d-2a90-2469-75e4" type="max"/>
           </constraints>
           <profiles>
-            <profile id="16f4-d06a-a162-d8c1" name="The Purifier" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+            <profile id="16f4-d06a-a162-d8c1" name="Purifier" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
                 <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
                 <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
@@ -5008,7 +4971,7 @@ dice roll.</characteristic>
               </infoLinks>
               <costs>
                 <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="1.0"/>
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
@@ -5273,7 +5236,7 @@ Movement phase. This unit must end that move more than 9&quot; away from any ene
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Choke Weapon (pg 48). After resolving damage on the target unit, each enemy unit within 3” of the target unit suffers 2D3 hits from this weapon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast, Choke Weapon (pg 48). After resolving damage on the target unit, each enemy unit within 3” of the target unit suffers 2D3 hits from this weapon.</characteristic>
           </characteristics>
         </profile>
         <profile id="abe8-aadb-0523-0409" name="Twin grenade cannon - lockdown grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
@@ -5307,7 +5270,7 @@ Movement phase. This unit must end that move more than 9&quot; away from any ene
             <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
             <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
             <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
-            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Choke Weapon (pg 48). After resolving damage on the target unit, each enemy unit within 3” of the target unit suffers D3 hits from this weapon.</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Blast, Choke Weapon (pg 48). After resolving damage on the target unit, each enemy unit within 3” of the target unit suffers D3 hits from this weapon.</characteristic>
           </characteristics>
         </profile>
         <profile id="bbb7-1023-45e7-920b" name="Grenade cannon - lockdown grenade" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
