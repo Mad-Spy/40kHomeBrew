@@ -1,4 +1,4 @@
-40k Homebrew Catalogues for the Warhammer 40,000 data set.
+40k Homebrew Catalogues for the Warhammer 40,000 8th Edition data set.
 ==================
 
 [![GitHub release](https://img.shields.io/github/release/BSData/TemplateDataRepo.svg?style=flat-square)](https://github.com/Mad-Spy/40kHomebrew/releases/latest)
