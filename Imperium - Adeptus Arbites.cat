@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="15e0-c8e4-ca16-cd08" name="Imperium - Adeptus Arbites" revision="7" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="153" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="15e0-c8e4-ca16-cd08" name="Imperium - Adeptus Arbites" revision="8" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="172" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <publications>
     <publication id="4156-221d-8681-cbce" name="Codex: Adeptus Arbites"/>
   </publications>
@@ -470,13 +470,6 @@
       </modifierGroups>
       <profiles>
         <profile id="4f7b-6104-3534-fde7" name="Marshal" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="0022-b753-588b-5023" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="824e-af07-a3af-dc88" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
             <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
             <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
@@ -487,50 +480,11 @@
             <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
             <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="d50e-f8c9-d90b-b53b" name="Lord Marshal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="0022-b753-588b-5023" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="824e-af07-a3af-dc88" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll any failed hit rolls for friendly &lt;PRECINCT&gt; units within 6&quot; of this model.</characteristic>
           </characteristics>
         </profile>
         <profile id="9662-be22-3d0c-61a5" name="Imperial Authority" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="0022-b753-588b-5023" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="824e-af07-a3af-dc88" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All friendly &lt;PRECINCT&gt; units within 6” of this model re-roll failed hit rolls of 1.</characteristic>
-          </characteristics>
-        </profile>
-        <profile id="0392-cf7d-3e0a-332f" name="Lord Marshal" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
-          <modifiers>
-            <modifier type="set" field="hidden" value="true">
-              <conditions>
-                <condition field="selections" scope="0022-b753-588b-5023" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="824e-af07-a3af-dc88" type="equalTo"/>
-              </conditions>
-            </modifier>
-          </modifiers>
-          <characteristics>
-            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
-            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
-            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
-            <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
-            <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
-            <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
-            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
-            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">8</characteristic>
-            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While a friendly &lt;PRECINCT&gt; CORE unit is within 6” of this model, each time a model in that unit makes an attack, re-roll a hit roll of 1.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -616,6 +570,7 @@
         <categoryLink id="b031-9f06-7376-70be" name="Faction: &lt;PRECINCT&gt;" hidden="false" targetId="64ed-6aa6-ddfd-ec20" primary="false"/>
         <categoryLink id="f02a-c9f7-dee5-30b0" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="c365-6212-9f26-a5ad" name="Patrol Team" hidden="false" targetId="28fd-e0fb-479f-2861" primary="false"/>
+        <categoryLink id="c809-8131-8876-be5a" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="94c2-1937-8a7d-4196" name="Proctor" hidden="false" collective="false" import="true" type="model">
@@ -1305,6 +1260,7 @@
         <categoryLink id="20af-1a78-71e5-4717" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="8bee-e27d-092f-c66a" name="Penal Custodian" hidden="false" targetId="1bd6-b357-390b-c1a1" primary="false"/>
         <categoryLink id="4a37-a35a-e153-39f1" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="ad0b-49b9-925f-c702" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
       </categoryLinks>
       <entryLinks>
         <entryLink id="642b-05ca-8924-cf93" name="Bolt pistol" hidden="false" collective="false" import="true" targetId="0334-f487-8229-0c1a" type="selectionEntry">
@@ -1350,7 +1306,7 @@
         </profile>
         <profile id="010c-e77f-48c1-18d8" name="Lord Marshal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll failed hit rolls for friendly SCINTILLA units within 6” of Luthir Goreman.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Command phase, select one friendly SCINTILLA CORE or SCINTILLA CHARACTER model unit within 6&quot; of thsi model. Until the start of your next Command phase, each time a model in that unit makes an attack, you can re-roll the hit roll.</characteristic>
           </characteristics>
         </profile>
         <profile id="ebc5-c38a-055b-ae6a" name="Conversion Field" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1360,7 +1316,7 @@
         </profile>
         <profile id="593a-c0f5-8f89-f4e8" name="No Tolerance for Weakness" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever a friendly SCINTILLA unit within 6” of Luthir Goreman fails a Morale test for any reason, the unit suffers D3 Mortal wounds. The test is then considered to be passed. This may happen only once per Morale phase.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whenever a friendly SCINTILLA unit within 6” of Luthir Goreman fails a Morale test for any reason, the unit suffers D3 mortal wounds. The test is then considered to be passed. This may happen only once per Morale phase.</characteristic>
           </characteristics>
         </profile>
         <profile id="b6b7-5a12-0c91-6d32" name="Will of Iron" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
@@ -1368,10 +1324,15 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Luthir Goreman can attempt to deny one psychic power during each enemy Psychic phase in the same manner as a psyker.</characteristic>
           </characteristics>
         </profile>
+        <profile id="485f-6060-88be-5564" name="Imperial Authority (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">While a friendly SCINTILLA CORE model is within 6&quot; of this model, each time a model in that unit makes an arttack, re-roll a hit roll of 1.</characteristic>
+          </characteristics>
+        </profile>
       </profiles>
       <infoLinks>
         <infoLink id="92a1-4562-6f26-773e" name="Rapid Response" hidden="false" targetId="274b-2036-d019-4007" type="rule"/>
-        <infoLink id="fd23-ead0-cda3-790a" name="Righteous Hatred" hidden="false" targetId="b089-1e13-6cba-e66d" type="profile">
+        <infoLink id="fd23-ead0-cda3-790a" name="With Highest Honour" hidden="false" targetId="b089-1e13-6cba-e66d" type="profile">
           <modifiers>
             <modifier type="set" field="hidden" value="true">
               <conditions>
@@ -1500,12 +1461,12 @@
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Catarina Igazi has a 3+ invulnerable save. In addition, each time an enemy model hits her but does not wound her in the Fight phase, roll a D6 – on a 6+, that unit suffers a mortal wound.</characteristic>
           </characteristics>
         </profile>
-        <profile id="dfdc-9969-7f85-ccba" name="Adaptive Tactician" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="dfdc-9969-7f85-ccba" name="Adaptive Tactician (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All friendly MANDOS units within 6” of Catarina Igazi can perform Heroic Interventions as if they were a CHARACTER.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">All friendly MANDOS CORE units within 6” of Catarina Igazi can perform Heroic Interventions as if they were a CHARACTER.</characteristic>
           </characteristics>
         </profile>
-        <profile id="7bed-07c3-a6a9-2683" name="Mountain Formation" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="7bed-07c3-a6a9-2683" name="Mountain Formation (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Friendly MANDOS units equipped with lockshields that are within 6” of Catarina Igazi receive the benefits of cover regardless of how far they moved during the Movement phase.</characteristic>
           </characteristics>
@@ -1595,7 +1556,7 @@
             <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
           </characteristics>
         </profile>
-        <profile id="6e79-824d-8f6f-3cfa" name="Frontier Justice" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+        <profile id="6e79-824d-8f6f-3cfa" name="Frontier Justice (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
             <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units within 6” of Stanley Bartlett add 1 to the dice roll of all Morale tests. In addition, enemy units within 6” of Stanley Bartlett are always treated as being below Half-strength when taking Combat Attrition tests.</characteristic>
           </characteristics>
@@ -1993,6 +1954,7 @@
         <categoryLink id="fd4a-36ff-0c51-ca5d" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="ff91-edf4-e03e-e955" name="Patrol Team" hidden="false" targetId="28fd-e0fb-479f-2861" primary="false"/>
         <categoryLink id="6a5a-c7f1-017f-2cd6" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="d06b-e1bb-fb4b-d494" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="6836-5050-c566-7980" name="Proctor" hidden="false" collective="false" import="true" type="model">
@@ -2179,6 +2141,7 @@
         <categoryLink id="c741-7563-7d06-543f" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="80f6-d0bd-4a2e-dd65" name="Shock Team" hidden="false" targetId="6012-7644-5ca4-c17c" primary="false"/>
         <categoryLink id="c01b-b997-0b55-e396" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="0c76-09bb-4710-1f24" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="245c-32f0-14b1-0ab5" name="Proctor" hidden="false" collective="false" import="true" type="model">
@@ -2598,6 +2561,7 @@
         <categoryLink id="a44b-3a07-88bb-2429" name="Beast" hidden="false" targetId="7892-58f7-e769-4d87" primary="false"/>
         <categoryLink id="532e-62fa-2bfa-6494" name="Cyber" hidden="false" targetId="fc26-4e19-5b4d-0a9c" primary="false"/>
         <categoryLink id="f6a7-99e6-d003-875d" name="Cyber-Mastiffs" hidden="false" targetId="5cfc-eaec-60dd-3e22" primary="false"/>
+        <categoryLink id="b9cf-50d9-73d1-0da5" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
       </categoryLinks>
       <selectionEntryGroups>
         <selectionEntryGroup id="6983-f78e-abbb-7595" name="3 - 9 Cyber-mastiffs" hidden="false" collective="false" import="true" defaultSelectionEntryId="145b-eca5-0e36-afaf">
@@ -2731,6 +2695,7 @@
         <categoryLink id="da96-a5a4-970f-40b3" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
         <categoryLink id="2db6-f5cb-47ef-b65c" name="Cyber" hidden="false" targetId="fc26-4e19-5b4d-0a9c" primary="false"/>
         <categoryLink id="843c-9b44-696e-f9a1" name="Suppression Servitors" hidden="false" targetId="8379-81f6-13a4-5421" primary="false"/>
+        <categoryLink id="fbec-3598-0d5d-12b0" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="f7d5-d5b3-0843-3f6f" name="Suppression Servitor" hidden="false" collective="false" import="true" type="model">
@@ -3014,6 +2979,7 @@
         <categoryLink id="729f-613e-cecc-aa6c" name="Faction: &lt;PRECINCT&gt;" hidden="false" targetId="64ed-6aa6-ddfd-ec20" primary="false"/>
         <categoryLink id="d3a0-797d-c0c6-7379" name="Biker" hidden="false" targetId="1c6f-0311-3eba-3180" primary="false"/>
         <categoryLink id="59ad-bda7-5810-0e9c" name="Rapid Pursuit Team" hidden="false" targetId="ea0d-7675-15ad-12bc" primary="false"/>
+        <categoryLink id="eac9-402e-14be-9cf7" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
       </categoryLinks>
       <selectionEntries>
         <selectionEntry id="4f42-f838-205e-c1dd" name="Proctor Biker" hidden="false" collective="false" import="true" type="model">
@@ -4162,10 +4128,16 @@
         <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6257-1ef4-9721-baec" type="max"/>
         <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="e0d2-53e7-3ae9-fb93" type="max"/>
       </constraints>
+      <profiles>
+        <profile id="2bac-c690-1210-373a" name="Lord Marshal" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Command phase, select one friendly &lt;PRECINCT&gt; CORE or &lt;PRECINCT&gt; CHARACTER unit within 6&quot; of this model. Until the start of your next Command phase, each time a model in this unit makes an attack, you can re-roll the hit roll.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
       <costs>
-        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
-        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
-        <cost name="pts" typeId="points" value="0.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+        <cost name="pts" typeId="points" value="40.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -4902,6 +4874,15 @@
             <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
+        <selectionEntry id="dd84-7d39-cce1-ed5f" name="Armour of the Aquila" hidden="true" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="false">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa07-4517-0011-c46e" type="instanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="7a14-3095-ad96-d644" name="Artifacts of Righteousness" hidden="false" collective="false" import="true" defaultSelectionEntryId="d994-547e-ca7d-d123">
@@ -5136,6 +5117,22 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="0f07-f031-6af1-cf87" name="Lord Marshal: Hand-picked" hidden="true" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="false">
+                  <conditions>
+                    <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="fa07-4517-0011-c46e" type="instanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="3ce9-acda-2d8a-70b4" name="Hand-picked" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">In your Command phase, select one friendly &lt;PRECINCT&gt; INFANTRY unit within 6&quot; of your WARLORD. Your opponent must subtract 1 from all hit rolls and wound rolls for attacks that target that unit.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -5149,8 +5146,7 @@
       <description>This weapon wounds all enemy units on a roll of 4+ unless the target has the VEHICLE or TITANIC keyword, in which case this weapon will wound on a 6+. Any units which suffer any unsaved wounds from this weapon must subtract 1 from all hit rolls until the start of your next turn.</description>
     </rule>
     <rule id="274b-2036-d019-4007" name="Rapid Response" publicationId="4156-221d-8681-cbce" page="48" hidden="false">
-      <description>At the start of the first battle round, before the first turn begins, this unit can move up to 9” as if it were your
-Movement phase. This unit must end that move more than 9&quot; away from any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.</description>
+      <description>At the start of the first battle round, before the first turn begins, this unit can move up to 9” as if it were your Movement phase. This unit must end that move more than 9&quot; away from any enemy models. If both players have units that can do this, the player who is taking the first turn moves their units first.</description>
     </rule>
     <rule id="db57-6880-50c1-159e" name="Guardians of the Law" hidden="false">
       <description>If your army is Battle-forged, all Troops units in ADEPTUS ARBITES Detachments gain this ability. Such a unit that is within range of an objective marker (as specified in the mission) controls that objective marker even if there are more enemy models within range of it. If an enemy unit within range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models within range of it as normal.</description>
