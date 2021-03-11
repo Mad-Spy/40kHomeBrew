@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1a76-7ee8-7be8-ad11" name="Blackstone Constructs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1a76-7ee8-7be8-ad11" name="Blackstone Constructs" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="d7fd-e2a2-d1e6-518f" name="Faction: Blackstone Constructs" hidden="false"/>
     <categoryEntry id="8f82-24ca-1d43-d69b" name="Commander Drone" hidden="false"/>
@@ -15,9 +15,91 @@
     <categoryEntry id="6469-dc27-3b3b-4151" name="Scout Drones" hidden="false"/>
     <categoryEntry id="ee96-1efa-ccc6-7f4b" name="Suppressor Drone" hidden="false"/>
     <categoryEntry id="22c0-150d-7726-375d" name="Mother Drone" hidden="false"/>
+    <categoryEntry id="0bc6-f743-0acb-3d49" name="Defenders Against the 13th" hidden="false"/>
+    <categoryEntry id="0050-9e60-d810-6f1c" name="Shattered Fortress" hidden="false"/>
   </categoryEntries>
+  <forceEntries>
+    <forceEntry id="ab62-5d22-b849-52f4" name="Formation: Enduring Victory -3CP" hidden="false">
+      <categoryLinks>
+        <categoryLink id="63b5-8384-c42f-dbc4" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
+        <categoryLink id="7c1c-4921-439e-c045" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
+        <categoryLink id="40fd-2d0a-e277-6a4b" name="Troops" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="false"/>
+        <categoryLink id="633c-5fda-3b70-b04e" name="Elites" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="false"/>
+        <categoryLink id="7220-cfd8-353c-0be0" name="Heavy Support" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="false"/>
+        <categoryLink id="1a63-d2da-5c19-a258" name="Lord of War" hidden="false" targetId="c888f08a-6cea-4a01-8126-d374a9231554" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="cc13-dd14-f621-a9bd" name="Formation: Intrusion First Response -3CP" hidden="false">
+      <rules>
+        <rule id="b7e5-8c30-ab0e-d849" name="First Line of Warning" hidden="false">
+          <description>Double the value of the points cost of each model in this Formation for determining the level of the Progressive Aggressiveness ability.</description>
+        </rule>
+        <rule id="6baf-9ddf-c41b-aa79" name="Where the Threat Is" hidden="false">
+          <description>Units in this formation must be deployed outside of your deployment zone, but more than 6” away from your opponent&apos;s deployment zone.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="3fe1-6c41-1f4b-98a8" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
+        <categoryLink id="5158-d0a9-f597-0fd3" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
+        <categoryLink id="f9d8-a71d-b493-2a37" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="false"/>
+      </categoryLinks>
+    </forceEntry>
+    <forceEntry id="1706-e6f4-42cc-56c8" name="Formation: The Three Witches -5CP" hidden="false">
+      <rules>
+        <rule id="2425-1391-044a-8c7f" name="Everything is Their Plan" hidden="false">
+          <description>Roll two D6s, noting which is which, every time an opponent uses a Stratagem; on a 6 on the first dice you gain 1 Command point, and on a 6 on the second dice the Stratagem costs 1 more Command point. If your opponent cannot pay this extra Command point then the Stratagem fails and no Command points are refunded.</description>
+        </rule>
+        <rule id="5459-8755-ae5e-1e95" name="Heads of the Witches" hidden="false">
+          <description>Your opponent gains two victory points for slaying each model in this Formation. If at the end of the battle, this formation is wiped out, your opponent gains twice the victory points.</description>
+        </rule>
+        <rule id="264d-0cd5-a9f9-841b" name="Sift the Code of the Future" hidden="false">
+          <description>At the start of each of your Command phases you gain a number of Command points equal to the number of models in this Formation that are still alive.</description>
+        </rule>
+      </rules>
+      <categoryLinks>
+        <categoryLink id="c36c-c34b-e923-e824" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="false"/>
+        <categoryLink id="2e9d-cff1-2bd3-24ea" name="Stratagems" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="false"/>
+        <categoryLink id="da86-d508-d8c3-9cb0" name="HQ" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="false"/>
+        <categoryLink id="69d3-ae93-3552-e936" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false">
+          <constraints>
+            <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="45d5-5944-7568-1175" type="min"/>
+          </constraints>
+        </categoryLink>
+      </categoryLinks>
+    </forceEntry>
+  </forceEntries>
   <selectionEntries>
     <selectionEntry id="6d30-19a3-3cf5-e01f" name="Commander Drone" hidden="false" collective="false" import="true" type="model">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1706-e6f4-42cc-56c8" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="9ccf-b57d-32ca-e62d" value="3.0"/>
+            <modifier type="set" field="fae5-1f8a-7a6b-a89e" value="3.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fae5-1f8a-7a6b-a89e" type="max"/>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9ccf-b57d-32ca-e62d" type="min"/>
+      </constraints>
       <profiles>
         <profile id="7f5d-a49f-fbb0-53d2" name="Commander Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
@@ -112,14 +194,24 @@
                     <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
                   </conditions>
                 </modifier>
+                <modifier type="set" field="name" value="Daemon pulse eraser">
+                  <conditions>
+                    <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
+                  </conditions>
+                </modifier>
               </modifiers>
               <infoLinks>
                 <infoLink id="032a-909b-6940-c5e1" name="Enhanced drone pulse" hidden="false" targetId="f8f0-3849-70b6-7b51" type="profile">
                   <modifiers>
                     <modifier type="set" field="hidden" value="true">
-                      <conditions>
-                        <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
-                      </conditions>
+                      <conditionGroups>
+                        <conditionGroup type="or">
+                          <conditions>
+                            <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                            <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
+                          </conditions>
+                        </conditionGroup>
+                      </conditionGroups>
                     </modifier>
                   </modifiers>
                 </infoLink>
@@ -128,6 +220,15 @@
                     <modifier type="set" field="hidden" value="true">
                       <conditions>
                         <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="9cc2-5acd-81fe-077e" name="Daemon pulse eraser" hidden="false" targetId="5f07-7f53-6a84-d177" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
                       </conditions>
                     </modifier>
                   </modifiers>
@@ -181,6 +282,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="d863-a41a-b5b6-73b6" name="Control Drone" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1706-e6f4-42cc-56c8" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <profiles>
         <profile id="fff7-6202-b662-8c8e" name="Control Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
@@ -220,6 +345,11 @@
                 <condition field="selections" scope="d863-a41a-b5b6-73b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
               </conditions>
             </modifier>
+            <modifier type="set" field="name" value="Daemon pulse eraser">
+              <conditions>
+                <condition field="selections" scope="d863-a41a-b5b6-73b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
+              </conditions>
+            </modifier>
           </modifiers>
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23e5-4021-e95e-4427" type="min"/>
@@ -229,9 +359,14 @@
             <infoLink id="6ab2-53ec-ba17-9f0a" name="Enhanced drone pulse" hidden="false" targetId="f8f0-3849-70b6-7b51" type="profile">
               <modifiers>
                 <modifier type="set" field="hidden" value="true">
-                  <conditions>
-                    <condition field="selections" scope="d863-a41a-b5b6-73b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
-                  </conditions>
+                  <conditionGroups>
+                    <conditionGroup type="or">
+                      <conditions>
+                        <condition field="selections" scope="d863-a41a-b5b6-73b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
+                        <condition field="selections" scope="d863-a41a-b5b6-73b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
+                      </conditions>
+                    </conditionGroup>
+                  </conditionGroups>
                 </modifier>
               </modifiers>
             </infoLink>
@@ -240,6 +375,15 @@
                 <modifier type="set" field="hidden" value="true">
                   <conditions>
                     <condition field="selections" scope="d863-a41a-b5b6-73b6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="6da7-7a42-e801-779e" name="Daemon pulse eraser" hidden="false" targetId="5f07-7f53-6a84-d177" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="d863-a41a-b5b6-73b6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
                   </conditions>
                 </modifier>
               </modifiers>
@@ -288,6 +432,36 @@
           </conditions>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="c5fd-5887-0d66-07aa" value="3.0"/>
+            <modifier type="set" field="d0fc-89dc-9cc5-80cd" value="6.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c5fd-5887-0d66-07aa" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d0fc-89dc-9cc5-80cd" type="max"/>
+      </constraints>
       <profiles>
         <profile id="2b67-5e32-537a-647d" name="Threat Level Rising" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -358,6 +532,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="8487-dcee-62f0-b7ab" name="Guardian Drones Squadron" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <profiles>
         <profile id="15fe-8f55-5c1b-5fd4" name="Swarm Coordinator (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -496,6 +694,30 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="2996-4e7a-b139-929d" name="Longshot Drones" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <profiles>
         <profile id="d2a5-5ba9-89a8-9dad" name="Stabilised Position" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -594,7 +816,29 @@
             <condition field="selections" scope="b14e-b32d-5f6b-0a88" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <profiles>
         <profile id="844b-37eb-2ed8-80ed" name="Independent Units" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -653,6 +897,11 @@
                         <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
                       </conditions>
                     </modifier>
+                    <modifier type="set" field="name" value="Daemon pulse eraser">
+                      <conditions>
+                        <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
+                      </conditions>
+                    </modifier>
                   </modifiers>
                   <constraints>
                     <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e91d-b469-9989-e089" type="min"/>
@@ -662,9 +911,14 @@
                     <infoLink id="b479-e18d-ff84-a945" name="Enhanced drone pulse" hidden="false" targetId="f8f0-3849-70b6-7b51" type="profile">
                       <modifiers>
                         <modifier type="set" field="hidden" value="true">
-                          <conditions>
-                            <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
-                          </conditions>
+                          <conditionGroups>
+                            <conditionGroup type="or">
+                              <conditions>
+                                <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
+                                <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
+                              </conditions>
+                            </conditionGroup>
+                          </conditionGroups>
                         </modifier>
                       </modifiers>
                     </infoLink>
@@ -673,6 +927,15 @@
                         <modifier type="set" field="hidden" value="true">
                           <conditions>
                             <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="2937-b644-6468-3c2d" name="Daemon pulse eraser" hidden="false" targetId="5f07-7f53-6a84-d177" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="b4fb-3be3-849f-0796" type="equalTo"/>
                           </conditions>
                         </modifier>
                       </modifiers>
@@ -710,6 +973,36 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="a46e-99ea-c2c6-486d" name="Shockpiercer Drones" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="262c-8b65-ac93-997e" value="1.0"/>
+            <modifier type="set" field="2152-5472-1175-c84a" value="3.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="262c-8b65-ac93-997e" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2152-5472-1175-c84a" type="max"/>
+      </constraints>
       <profiles>
         <profile id="1118-ab30-4176-2d56" name="System Override" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -816,7 +1109,34 @@
             <condition field="selections" scope="83fa-7815-9a8e-cb19" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="or">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc13-dd14-f621-a9bd" type="instanceOf"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
       <profiles>
         <profile id="7b36-75a4-5352-8677" name="Breaching Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -919,7 +1239,42 @@
             <condition field="selections" scope="178e-1a7a-03c5-5379" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
           </conditions>
         </modifier>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+        </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc13-dd14-f621-a9bd" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="6d3a-24f4-36ca-8a9c" value="1.0"/>
+            <modifier type="set" field="b21b-d87f-e50c-9d13" value="3.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d3a-24f4-36ca-8a9c" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b21b-d87f-e50c-9d13" type="max"/>
+      </constraints>
       <profiles>
         <profile id="cdf8-f1b0-1f60-0075" name="Scuttling Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -1032,6 +1387,13 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="279b-fec6-e154-1485" name="Scout Drone Swarms" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
       <modifierGroups>
         <modifierGroup>
           <modifiers>
@@ -1057,7 +1419,35 @@
             </modifier>
           </modifiers>
         </modifierGroup>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc13-dd14-f621-a9bd" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="910a-da5f-5cc1-838d" value="3.0"/>
+            <modifier type="set" field="10bf-7612-aab3-bb99" value="9.0"/>
+          </modifiers>
+        </modifierGroup>
       </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="910a-da5f-5cc1-838d" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10bf-7612-aab3-bb99" type="max"/>
+      </constraints>
       <profiles>
         <profile id="6632-7dc8-14f0-d0e5" name="Repair Protocol" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
@@ -1125,10 +1515,52 @@
       </costs>
     </selectionEntry>
     <selectionEntry id="b808-92e8-1f56-ca9b" name="Suppressor Drones Squadron" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="e0e4-6573-4bf7-410f" value="1.0"/>
+            <modifier type="set" field="e1a1-4078-2990-a979" value="3.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e4-6573-4bf7-410f" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e1a1-4078-2990-a979" type="max"/>
+      </constraints>
       <profiles>
         <profile id="b55e-f93d-1969-056e" name="Weapon Platform" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"/>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model does not move in its Movement phase, you can add 1 to its hit rolls in the following Shooting phase. If you do so, it cannot charge in the same turn.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="7ea3-3391-73b7-b066" name="Unstoppable Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Suppressor Drones in this formation always count as having remained stationary for the purpose of their Weapon Platform and Kinetic Bombarder special rules.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1304,6 +1736,36 @@
           </conditions>
         </modifier>
       </modifiers>
+      <modifierGroups>
+        <modifierGroup>
+          <comment>Spec Det keywords</comment>
+          <modifiers>
+            <modifier type="add" field="category" value="0bc6-f743-0acb-3d49">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="d033-6a0b-caed-f981" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="add" field="category" value="0050-9e60-d810-6f1c">
+              <conditions>
+                <condition field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f63b-764a-9391-11f7" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="f89a-5ca9-f816-98ea" value="1.0"/>
+            <modifier type="set" field="fa9a-fd2a-11e2-e816" value="1.0"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f89a-5ca9-f816-98ea" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fa9a-fd2a-11e2-e816" type="max"/>
+      </constraints>
       <profiles>
         <profile id="5a17-1727-85cc-718f" name="Mother Drone 1 (21+ wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
           <characteristics>
@@ -1370,6 +1832,18 @@
         <profile id="79bb-33b2-e1a7-c898" name="Mother Drone" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
           <characteristics>
             <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">A Mother Drone can transport up to 20 BLACKSTONE CONSTRUCTS INFANTRY models and 1 BLACKSTONE CONSTRUCTS VEHICLE model (each INFANTRY model occupies a number of slots equal to its wounds characteristic).</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5e1f-3dbf-7042-210c" name="Swarm Controller (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst a Spindle Drone unit is within 12&quot; of any model with this special rule, their Threat Level Rising special rule has no effect. Instead, add 3 to the Strength, AP and Damage characteristics of that unit&apos;s Drone Pulse.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -1526,6 +2000,116 @@
         <cost name="pts" typeId="points" value="580.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="35.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="321c-ebb5-e10c-3663" name="Specialist Detachments" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="force" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="b2ea-c2dc-1095-1436" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="991f-dc23-c62e-4a99" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="4266-6e15-afa8-2add" name="Specialist Detachment" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e811-2570-7e3b-fa33" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b77-0167-05fe-85d5" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d033-6a0b-caed-f981" name="Defenders Against the 13th" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="1194-53b4-8c6a-7cf1" name="Defenders Against the 13th" hidden="false">
+                  <description>Use this Stratagem when choosing your army. Pick a BLACKSTONE CONSTRUCTS Detachment from your army to be a Defenders Against the 13th Specialist Detachment. BLACKSTONE CONSTRUCT INFANTRY and VEHICLE units in that Detachment gain the DEFENDERS AGAINST THE 13TH keyword.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="f63b-764a-9391-11f7" name="Shattered Fortress" hidden="false" collective="false" import="true" type="upgrade">
+              <rules>
+                <rule id="8875-7468-18f6-e972" name="Shattered Fortress" hidden="false">
+                  <description>Use this Stratagem when choosing your army. Pick a BLACKSTONE CONSTRUCTS Detachment from your army to be a Shattered Fortress Specialist Detachment. BLACKSTONE CONSTRUCT INFANTRY and VEHICLE units in that Detachment gain the SHATTERED FORTRESS keyword.</description>
+                </rule>
+              </rules>
+              <costs>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+    </selectionEntry>
+    <selectionEntry id="e76d-a33c-eebd-b02e" name="Formation: Enduring Victory" hidden="true" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="ab62-5d22-b849-52f4" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="ed83-9fe0-3232-e2a8" value="1.0"/>
+            <modifier type="set" field="d84a-5e26-d5f5-40cd" value="1.0"/>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ed83-9fe0-3232-e2a8" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d84a-5e26-d5f5-40cd" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="890e-8fcd-37cd-6652" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="6f23-a522-ae90-e4ed" name="Formation: Intrusion First Response" hidden="true" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="cc13-dd14-f621-a9bd" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="229e-6745-d066-2b44" value="1.0"/>
+            <modifier type="set" field="8c04-11b3-d409-eafc" value="1.0"/>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="229e-6745-d066-2b44" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8c04-11b3-d409-eafc" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="727e-b961-378e-cad0" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8c5d-300f-7e65-2a5f" name="Formation: The Three Witches" hidden="true" collective="false" import="true" type="upgrade">
+      <modifierGroups>
+        <modifierGroup>
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="1706-e6f4-42cc-56c8" type="instanceOf"/>
+          </conditions>
+          <modifiers>
+            <modifier type="set" field="d69d-8f68-0f8b-cfe1" value="1.0"/>
+            <modifier type="set" field="772a-0554-3a36-3354" value="1.0"/>
+            <modifier type="set" field="hidden" value="false"/>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <constraints>
+        <constraint field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="772a-0554-3a36-3354" type="min"/>
+        <constraint field="selections" scope="force" value="-1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d69d-8f68-0f8b-cfe1" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="7400-2d5c-b1f8-dece" name="Configuration" hidden="false" targetId="fcff-0f21-93e6-1ddc" primary="true"/>
+      </categoryLinks>
+      <costs>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-5.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -1896,6 +2480,42 @@
             </modifier>
           </modifiers>
         </selectionEntry>
+        <selectionEntry id="b4fb-3be3-849f-0796" name="Daemon Pulse Eraser" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04af-a3e0-c528-7e15" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="551d-7151-d827-f4e2" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba0f-b746-51dd-0531" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0bc6-f743-0acb-3d49" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+        <selectionEntry id="5983-57db-6f78-8c18" name="Emergency Communication Relay" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="0050-9e60-d810-6f1c" type="notInstanceOf"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <profiles>
+            <profile id="5e3b-df88-cea0-5a04" name="Emergency Communication Relay" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Double the range of all of this model&apos;s Aura special rules.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="d38d-61e7-fc57-8cb9" name="EMP shockwave emitter" hidden="false" collective="false" import="true" targetId="5601-7a64-2311-7d91" type="selectionEntry"/>
@@ -2115,6 +2735,41 @@
                 <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
+            <selectionEntry id="bf5f-21f4-b4f1-b5f9" name="Hatred of Chaos" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0bc6-f743-0acb-3d49" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="80ea-8766-5429-9194" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="15ba-87a0-f4ff-208a" name="Hatred of Chaos" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 1 to hit and wound rolls made by your WARLORD against CHAOS units.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
+            <selectionEntry id="6db0-55d5-e961-43b0" name="Last Surviving Lynchpin of Code" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="0050-9e60-d810-6f1c" type="notInstanceOf"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="7afb-928d-cd08-4032" name="Last Surviving Lynchpin of Code" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a D6 each time your WARLORD loses a wound whilst they are within 3&quot; of a friendly SHATTERED FORTRESS unit; on a 2+ a model from that unit can intercept that hit - your WARLORD does not lose a wound but that unit suffers a mortal wound.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+            </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
@@ -2182,6 +2837,16 @@
         <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
         <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
         <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon wounds the target on a roll equal to its unmodified Armour save. Armour saves can&apos;t be taken for attacks made by this weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="5f07-7f53-6a84-d177" name="Daemon pulse eraser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 2</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Triple the damage against enemies with the DAEMON keyword. DAEMON units may not use their Invulnerable save and rules that ignore wounds against attacks made with this weapon.</characteristic>
       </characteristics>
     </profile>
   </sharedProfiles>
