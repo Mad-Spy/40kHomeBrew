@@ -1,0 +1,2275 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<catalogue id="1a76-7ee8-7be8-ad11" name="Blackstone Constructs" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+  <categoryEntries>
+    <categoryEntry id="d7fd-e2a2-d1e6-518f" name="Faction: Blackstone Constructs" hidden="false"/>
+    <categoryEntry id="8f82-24ca-1d43-d69b" name="Commander Drone" hidden="false"/>
+    <categoryEntry id="1ee6-96f6-701b-26a9" name="Control" hidden="false"/>
+    <categoryEntry id="1596-eaf8-0b44-c08f" name="Control Drone" hidden="false"/>
+    <categoryEntry id="f72b-91fd-dc13-5fbd" name="Spindle Drones" hidden="false"/>
+    <categoryEntry id="fc2c-e3f8-8abd-cd33" name="Guardian Drone" hidden="false"/>
+    <categoryEntry id="d2b0-1fa5-50e4-55f0" name="Longshot Drones" hidden="false"/>
+    <categoryEntry id="fb07-1888-de08-e4fe" name="Repeater Drone" hidden="false"/>
+    <categoryEntry id="1ae3-af9f-6862-a17a" name="Shockpiercer Drone" hidden="false"/>
+    <categoryEntry id="bdb8-8c4e-e09e-6b64" name="Breacher Drones" hidden="false"/>
+    <categoryEntry id="5e3e-fe30-1b90-5996" name="Outrider Drones" hidden="false"/>
+    <categoryEntry id="6469-dc27-3b3b-4151" name="Scout Drones" hidden="false"/>
+    <categoryEntry id="ee96-1efa-ccc6-7f4b" name="Suppressor Drone" hidden="false"/>
+    <categoryEntry id="22c0-150d-7726-375d" name="Mother Drone" hidden="false"/>
+  </categoryEntries>
+  <selectionEntries>
+    <selectionEntry id="6d30-19a3-3cf5-e01f" name="Commander Drone" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="7f5d-a49f-fbb0-53d2" name="Commander Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">2+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">5</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="5b44-7ccc-c664-9009" name="Swarm Commander (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">When a BLACKSTONE CONSTRUCTS CORE unit within 6&quot; of this model is selected to make a Normal Move or an Advance, add 1&quot; to the distance it can move.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a22a-c00d-e14c-6f45" name="Vibrations scanner" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy models within 12&quot; of this model do not receive the bonus to their save for being in Light and Heavy Cover against attacks made by friendly BLACKSTONE CONSTRUCTS units within 6&quot; of this model.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="0cd0-0faa-f143-53ea" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="0ac9-f89f-2486-1658" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="60a5-3274-7438-b2cd" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="bc5f-b490-c6f1-fde9" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="3e5d-0b05-4937-0fd9" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="a0a5-212e-c2dc-fb10" name="Control" hidden="false" targetId="1ee6-96f6-701b-26a9" primary="false"/>
+        <categoryLink id="8bee-a587-19b4-bff7" name="Commander Drone" hidden="false" targetId="8f82-24ca-1d43-d69b" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="a3c4-df04-d98e-b164" name="Weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="ba0f-b746-51dd-0531">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8194-7ae7-a3bf-ea31" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="26a2-4896-c182-10b1" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="20fb-c61d-f2a1-0fb4" name="EMP blaster" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="EMP shockwave emitter">
+                  <conditions>
+                    <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5601-7a64-2311-7d91" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <profiles>
+                <profile id="e499-8ec4-06a1-ef26" name="EMP shockwave emitter" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5601-7a64-2311-7d91" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <characteristics>
+                    <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">3&quot;</characteristic>
+                    <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+                    <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+                    <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+                    <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+                    <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Do not roll to wound for this weapon. Instead, roll a D6 for each attack that hits; On a 2+, the target suffers D3 mortal wounds. If the target is a VEHICLE it suffers D3+3 mortal wounds instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <infoLinks>
+                <infoLink id="d205-d61e-53a2-9fbc" name="EMP Blaster" hidden="false" targetId="ae60-55d4-6092-4eaa" type="infoGroup">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="5601-7a64-2311-7d91" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="ba0f-b746-51dd-0531" name="Enhanced drone pulse" hidden="false" collective="false" import="true" type="upgrade">
+              <modifiers>
+                <modifier type="set" field="name" value="Impactor drone pulse">
+                  <conditions>
+                    <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+              <infoLinks>
+                <infoLink id="032a-909b-6940-c5e1" name="Enhanced drone pulse" hidden="false" targetId="f8f0-3849-70b6-7b51" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+                <infoLink id="dded-4489-91e3-f19d" name="Impactor drone pulse" hidden="false" targetId="2d85-333e-cd1e-a7e8" type="profile">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="6d30-19a3-3cf5-e01f" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </infoLink>
+              </infoLinks>
+            </selectionEntry>
+          </selectionEntries>
+          <entryLinks>
+            <entryLink id="f262-b14b-9dba-f95f" name="Drone laser" hidden="false" collective="false" import="true" targetId="4c2d-3512-eaed-50c2" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="363c-354a-a417-9708" name="Flamer" hidden="false" collective="false" import="true" targetId="fd22-6743-2d4c-dd62" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="5.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="1ab6-714a-d389-8e39" name="Bladed limbs" hidden="false" collective="false" import="true" targetId="fc97-ba52-fccd-a100" type="selectionEntry"/>
+        <entryLink id="27ff-9f06-0352-75c3" name="Lightpod" hidden="false" collective="false" import="true" targetId="9369-d645-4d40-7bc2" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8cff-4ba8-efbb-68d7" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="7.0"/>
+          </costs>
+        </entryLink>
+        <entryLink id="82fe-63bf-6bb1-89a4" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+        <entryLink id="9d8b-8aff-2a3c-1aca" name="Additional systems" hidden="false" collective="false" import="true" targetId="5ad9-ac06-9883-77f5" type="selectionEntryGroup"/>
+        <entryLink id="a4b5-bb1e-28b0-5cf3" name="Warlord" hidden="false" collective="false" import="true" targetId="ad56-3320-c07a-8d1c" type="selectionEntry"/>
+        <entryLink id="83ac-4b9f-31c8-7d4b" name="Amplified Command Network" hidden="false" collective="false" import="true" targetId="3643-28f9-1a4b-82fb" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad56-3320-c07a-8d1c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="5cba-9500-3fb8-c1ff" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="65d4-cf4b-fb66-abf8" type="selectionEntryGroup"/>
+        <entryLink id="6dd2-a3b8-a05a-b31e" name="Special systems" hidden="false" collective="false" import="true" targetId="3e8f-eb8b-bcbb-1c1c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="pts" typeId="points" value="90.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="d863-a41a-b5b6-73b6" name="Control Drone" hidden="false" collective="false" import="true" type="model">
+      <profiles>
+        <profile id="fff7-6202-b662-8c8e" name="Control Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">2+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">4</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="bd66-b839-b352-1aea" name="Drone Controller (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Whilst a SPINDLE DRONE unit is within 6&quot; of any model with this special rule, their Threat Level Rising special rule has no effect. Instead, add 3 to the Strength, AP and Damage characteristics of that unit&apos;s Drone Pulse.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="dae1-6f4d-62ff-b0d1" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d519-41a6-44b1-9139" name="New CategoryLink" hidden="false" targetId="848a6ff2-0def-4c72-8433-ff7da70e6bc7" primary="true"/>
+        <categoryLink id="a81e-958f-a8cf-4adf" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="254c-1706-1074-8d4c" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="7180-968b-b82b-10da" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="8599-15f6-66d2-a25a" name="Control" hidden="false" targetId="1ee6-96f6-701b-26a9" primary="false"/>
+        <categoryLink id="fa56-3497-0a05-fd28" name="Control Drone" hidden="false" targetId="1596-eaf8-0b44-c08f" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="551d-7151-d827-f4e2" name="Enhanced drone pulse" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="name" value="Impactor drone pulse">
+              <conditions>
+                <condition field="selections" scope="d863-a41a-b5b6-73b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="23e5-4021-e95e-4427" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1143-d9f8-8a7b-8b41" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="6ab2-53ec-ba17-9f0a" name="Enhanced drone pulse" hidden="false" targetId="f8f0-3849-70b6-7b51" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="d863-a41a-b5b6-73b6" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+            <infoLink id="9cee-c325-52f8-e881" name="Impactor drone pulse" hidden="false" targetId="2d85-333e-cd1e-a7e8" type="profile">
+              <modifiers>
+                <modifier type="set" field="hidden" value="true">
+                  <conditions>
+                    <condition field="selections" scope="d863-a41a-b5b6-73b6" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                  </conditions>
+                </modifier>
+              </modifiers>
+            </infoLink>
+          </infoLinks>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="f4e6-1922-2f8f-046e" name="Additional systems" hidden="false" collective="false" import="true" targetId="5ad9-ac06-9883-77f5" type="selectionEntryGroup"/>
+        <entryLink id="dac6-5a72-e125-3568" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+        <entryLink id="0d24-7830-61f3-937b" name="Manipulator limbs" hidden="false" collective="false" import="true" targetId="e336-e7cc-fb78-12b6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a5f-4690-360c-53dc" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4441-e733-0a54-1b7b" type="max"/>
+          </constraints>
+        </entryLink>
+        <entryLink id="c896-2bab-b9ae-4b7a" name="Warlord" hidden="false" collective="false" import="true" targetId="ad56-3320-c07a-8d1c" type="selectionEntry"/>
+        <entryLink id="ce06-f585-b82e-f14d" name="Amplified Command Network" hidden="false" collective="false" import="true" targetId="3643-28f9-1a4b-82fb" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditions>
+                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad56-3320-c07a-8d1c" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </entryLink>
+        <entryLink id="cc37-2fdf-8d4f-b641" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="65d4-cf4b-fb66-abf8" type="selectionEntryGroup"/>
+        <entryLink id="5b5f-d473-e5df-c81f" name="Special systems" hidden="false" collective="false" import="true" targetId="3e8f-eb8b-bcbb-1c1c" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="pts" typeId="points" value="60.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3270-d265-1765-04ca" name="Spindle Drones" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+          <conditions>
+            <condition field="selections" scope="3270-d265-1765-04ca" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+          <conditions>
+            <condition field="selections" scope="3270-d265-1765-04ca" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="2b67-5e32-537a-647d" name="Threat Level Rising" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Improve the Strength, Armour Penetration and Damage characteristics of a models drone pulse by 1 for each model in its unit that has either lost wounds or been destroyed (for example, if 2 models in a unit of Spindle Drones have been destroyed and another has lost 1 wound, the 2 remaining models’ drone pulses would have a Strength characteristic of 6, an AP characteristic of -3 and a Damage characteristic of 4), up to a maximum of +3.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="e025-d441-743c-ec81" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="bb39-2e08-e2d2-43a1" name="New CategoryLink" hidden="false" targetId="5d76b6f5-20ae-4d70-8f59-ade72a2add3a" primary="true"/>
+        <categoryLink id="642f-1e7e-e7a2-7935" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="9b30-3678-c06f-0a86" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="14c6-1821-fed4-e31c" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
+        <categoryLink id="e382-7abc-6d7d-d771" name="Spindle Drones" hidden="false" targetId="f72b-91fd-dc13-5fbd" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="16a0-09f1-8ed0-9b47" name="4 - 12 Spindle Drones" hidden="false" collective="false" import="true" defaultSelectionEntryId="a84b-3bd4-91f1-9f47">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="97c2-64cf-eefc-39a1" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a84b-3bd4-91f1-9f47" name="Spindle Drone" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af7c-c0e7-d77e-a5e0" type="max"/>
+                <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7191-10c1-33a6-ac06" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="3590-98f2-a2e2-26f0" name="Spindle Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink id="8de7-40eb-7844-cab2" name="Drone pulse" hidden="false" collective="false" import="true" targetId="765a-51ea-2db9-9cfe" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f682-b981-e96f-1e1b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6661-d58c-6faf-5a9c" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="15.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3a30-b184-101a-20fd" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="8487-dcee-62f0-b7ab" name="Guardian Drones Squadron" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="15fe-8f55-5c1b-5fd4" name="Swarm Coordinator (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">You can re-roll hit rolls of 1 for friendly BLACKSTONE CONSTRUCTS INFANTRY units within 6&quot; of this model; 12&quot; if it didn&apos;t move during its previous movement phase.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="9946-f7ec-3427-5c65" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+        <infoLink id="5481-a45a-1666-c3f4" name="Independent Enforcers" hidden="false" targetId="e4a1-2aeb-a478-f0a9" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="7c2f-d2b2-5c40-57f2" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="20a7-7cd6-b42d-1942" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="5db9-4425-1c44-4e1b" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="188b-d6ec-23c1-4623" name="Control" hidden="false" targetId="1ee6-96f6-701b-26a9" primary="false"/>
+        <categoryLink id="bde2-e487-dad0-6464" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
+        <categoryLink id="b5df-afe0-15f0-9180" name="Guardian Drones" hidden="false" targetId="fc2c-e3f8-8abd-cd33" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="992e-cfe4-e02e-1130" name="1 - 3 Guardian Drones" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f0cf-ccad-22f8-8bb8" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="ecba-5eb1-7c60-16e3" name="Guardian Drone" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4512-6953-f09b-9d4d" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f48-7715-4095-948c" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="b9bb-43c1-62c4-ce3b" name="Guardian Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">5</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">7</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">4</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="dd0b-ca8b-01ec-4a78" name="Guardian salvo launchers" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5196-99ee-4148-ac70" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e9d-7f66-c84e-23a0" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="9688-79c7-cada-ec33" name="Guardian salvo launchers" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D6</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+                <selectionEntry id="2444-8989-6760-2872" name="Destroyer pulse" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ba28-715f-fbb1-cdb3" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e412-3058-85dc-4721" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="6257-b9f8-97aa-201f" name="Destroyer pulse" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">4</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="ca91-f920-0d3d-830e" name="Hover drones" hidden="false" collective="false" import="true" targetId="f3b9-d823-81c6-cbe6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4446-d81a-619f-ff51" type="max"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0464-fa33-2c0d-302f" type="min"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="66c8-676f-f132-e614" name="Manipulator limbs" hidden="false" collective="false" import="true" targetId="e336-e7cc-fb78-12b6" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0f55-8d85-5049-591c" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b680-e9e6-2b26-f025" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="41ee-fdf7-e289-54c2" name="Warlord" hidden="false" collective="false" import="true" targetId="ad56-3320-c07a-8d1c" type="selectionEntry"/>
+                <entryLink id="0004-315a-1ad3-ebcd" name="Amplified Command Network" hidden="false" collective="false" import="true" targetId="3643-28f9-1a4b-82fb" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad56-3320-c07a-8d1c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="f57b-70a7-0afa-2e03" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="65d4-cf4b-fb66-abf8" type="selectionEntryGroup"/>
+                <entryLink id="3ca5-2f8d-17c0-790e" name="Special systems" hidden="false" collective="false" import="true" targetId="3e8f-eb8b-bcbb-1c1c" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="80.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="f9cb-0426-4f73-9dee" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="2996-4e7a-b139-929d" name="Longshot Drones" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="d2a5-5ba9-89a8-9dad" name="Stabilised Position" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this unit does not move in its Movement phase, you can add 1 to its hit rolls in the following Shooting phase. If you do so, it cannot charge in the same turn.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="8d88-fae8-cdd1-73ce" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+        <infoLink id="8493-1f4d-88f8-7c39" name="Shield Generator" hidden="false" targetId="d3a1-4d78-d024-21c1" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c301-9af7-e8b1-6b88" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="8087-d060-744c-9c99" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="45eb-e283-7f6f-24c0" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="4a03-bba5-0ed3-897c" name="Longshot Drones" hidden="false" targetId="d2b0-1fa5-50e4-55f0" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f37f-d725-61ea-b1d1" name="1 - 3 Longshot Drones" hidden="false" collective="false" import="true" defaultSelectionEntryId="c2b8-cb8f-05db-0b57">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="50c4-be3c-3b6a-9411" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c2b8-cb8f-05db-0b57" name="Longshot Drone" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="aa6e-f2ca-0d3c-5d1a" type="max"/>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="52c3-30dd-532b-7f76" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="b961-78ab-e165-2054" name="Longshot Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="636c-b0a8-1f77-8386" name="High-intensity drone laser" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9e64-2dc5-8d35-aff6" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6240-64f7-3890-8365" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="6a87-6c63-5814-6b59" name="High-intensity drone laser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">6</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3+1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can target CHARACTERS even if they are not the closest enemy unit.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="4.0"/>
+                <cost name="pts" typeId="points" value="80.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="06db-2996-e527-e7d3" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b14e-b32d-5f6b-0a88" name="Repeater Drones" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="2.0">
+          <conditions>
+            <condition field="selections" scope="b14e-b32d-5f6b-0a88" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+          <conditions>
+            <condition field="selections" scope="b14e-b32d-5f6b-0a88" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="844b-37eb-2ed8-80ed" name="Independent Units" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time this unit is set up on the battlefield, all of its models must be placed within 3&quot; of at least one other model in their unit. From that point onwards, each operates independently and is treated as a separate unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="a143-a0a5-b730-bd0e" name="Signal Repeater (Aura)" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If this model is within 12&quot; of a model with the CONTROL keyword, then this model gains the CONTROL keyword.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="18c2-35b4-1788-0d55" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+        <infoLink id="b8f3-fd57-42c1-6af8" name="Shield Generator" hidden="false" targetId="d3a1-4d78-d024-21c1" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="6ef2-7c31-ce67-5f1c" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="62b9-9cdd-ce3e-1cda" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="1a1f-694c-48e1-4727" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="f824-a051-3321-4259" name="Character" hidden="false" targetId="ef18-746a-369f-43a4" primary="false"/>
+        <categoryLink id="6a20-1083-29b1-c21b" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
+        <categoryLink id="276d-ab10-cf03-44b1" name="Repeater Drones" hidden="false" targetId="fb07-1888-de08-e4fe" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="6350-a9b3-1024-cf98" name="1 - 3 Repeater Drones" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f461-fd10-2391-7c4f" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d70a-e8e7-9c79-7efb" name="Repeater Drone" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fb5c-585e-7400-5326" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b8d-f2a2-f606-b25f" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="a29d-3824-7e22-3805" name="Repeater Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="04af-a3e0-c528-7e15" name="Enhanced drone pulse" hidden="false" collective="false" import="true" type="upgrade">
+                  <modifiers>
+                    <modifier type="set" field="name" value="Impactor drone pulse">
+                      <conditions>
+                        <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e91d-b469-9989-e089" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc35-e061-e485-5121" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="b479-e18d-ff84-a945" name="Enhanced drone pulse" hidden="false" targetId="f8f0-3849-70b6-7b51" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                    <infoLink id="1f42-48f3-9d80-eca2" name="Impactor drone pulse" hidden="false" targetId="2d85-333e-cd1e-a7e8" type="profile">
+                      <modifiers>
+                        <modifier type="set" field="hidden" value="true">
+                          <conditions>
+                            <condition field="selections" scope="d70a-e8e7-9c79-7efb" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="f603-9a1e-bbc2-8264" type="equalTo"/>
+                          </conditions>
+                        </modifier>
+                      </modifiers>
+                    </infoLink>
+                  </infoLinks>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="b00f-cd70-c9f7-58f4" name="Warlord" hidden="false" collective="false" import="true" targetId="ad56-3320-c07a-8d1c" type="selectionEntry"/>
+                <entryLink id="8aee-8b95-f5e4-dd89" name="Amplified Command Network" hidden="false" collective="false" import="true" targetId="3643-28f9-1a4b-82fb" type="selectionEntry">
+                  <modifiers>
+                    <modifier type="set" field="hidden" value="true">
+                      <conditions>
+                        <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad56-3320-c07a-8d1c" type="equalTo"/>
+                      </conditions>
+                    </modifier>
+                  </modifiers>
+                </entryLink>
+                <entryLink id="bd61-f274-fead-3843" name="Warlord Traits" hidden="false" collective="false" import="true" targetId="65d4-cf4b-fb66-abf8" type="selectionEntryGroup"/>
+                <entryLink id="8aea-a27b-7e1c-7cb9" name="Special systems" hidden="false" collective="false" import="true" targetId="3e8f-eb8b-bcbb-1c1c" type="selectionEntryGroup"/>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="35.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="2.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a46e-99ea-c2c6-486d" name="Shockpiercer Drones" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="1118-ab30-4176-2d56" name="System Override" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your Shooting phase, choose an enemy VEHICLE model within 12&quot; of this model and roll a D6. On a 4+, choose one of that vehicle’s weapons. You may shoot with that weapon at another enemy unit. The weapon fires using the vehicle’s Ballistic Skill.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="c975-5328-0800-43ad" name="Independent Enforcers" hidden="false" targetId="e4a1-2aeb-a478-f0a9" type="profile"/>
+        <infoLink id="f5f3-bf8c-8c16-4e93" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="c967-4160-a58d-4834" name="New CategoryLink" hidden="false" targetId="638d74c6-bd97-4de5-b65a-6aaa24e9f4b2" primary="true"/>
+        <categoryLink id="add6-ccf1-0494-dcd6" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="5c4f-a5cc-a4cb-48f8" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
+        <categoryLink id="f310-6a3d-341b-9f57" name="Shockpiercer Drone" hidden="false" targetId="1ae3-af9f-6862-a17a" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="3ccb-96b5-7d35-c264" name="1 - 3 Shockpiercer Drones" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="99e9-4d1f-147d-9385" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="e1fc-7e18-5971-97be" name="Shockpiercer Drone" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd5d-575c-6e98-51e3" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ecf2-2305-b5f9-c81d" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="1e59-6170-24dd-241c" name="Shockpiercer Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">3+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">6</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">12</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="584a-4f05-29f0-30d6" name="Thermo-electric appendages" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e105-edcb-2283-b964" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c019-6743-56d6-758d" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="dcbd-0247-775a-2e27" name="Thermo-electric appendages" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 2 hit rolls instead of 1 for each attack made with this weapon. Against a VEHICLE, a wound roll of 4+ inflicts D3 mortal wounds in addition to the normal damage.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="f382-1958-8664-6ead" name="EMP blaster" hidden="false" collective="false" import="true" targetId="7022-d105-e28e-771b" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4e63-8a00-0e32-8b3e" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="96c0-efdd-c215-9b41" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="7.0"/>
+                <cost name="pts" typeId="points" value="140.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="379e-96b3-0197-f05f" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="83fa-7815-9a8e-cb19" name="Breacher Drones" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="5.0">
+          <conditions>
+            <condition field="selections" scope="83fa-7815-9a8e-cb19" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="5.0">
+          <conditions>
+            <condition field="selections" scope="83fa-7815-9a8e-cb19" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="7b36-75a4-5352-8677" name="Breaching Charge" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit can move over terrain as if it was open ground (with the exception of Impassable Terrain) and are never slowed down by Difficult Ground.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="3fdd-49c2-1b3d-ab76" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="1e51-a0e4-88e4-9c0b" name="Fast Attack" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+        <categoryLink id="7eb1-28d6-c0e4-0578" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="e12a-fb75-35bb-a345" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="e98f-f315-1d69-c875" name="Breacher Drones" hidden="false" targetId="bdb8-8c4e-e09e-6b64" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="f7d1-2a08-40f0-182d" name="3 - 9 Breacher Drones" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="2157-1720-ffd8-8eb8" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d733-4087-52bd-fe75" name="Breacher Drone" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6002-183e-5391-f3f4" type="max"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58cf-dd0c-61d1-1fe5" type="min"/>
+              </constraints>
+              <profiles>
+                <profile id="e569-a7d8-386c-44d3" name="Breacher Drone" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">5</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">2</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="141a-54af-e12a-3168" name="Thermic Atomiser" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bbf8-c43a-49bf-0cc9" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c2ad-128d-7bea-8e4b" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="c49d-1691-5743-7822" name="Thermic atomiser" hidden="false" targetId="3f29-feb9-be3c-1aab" type="infoGroup"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <entryLinks>
+                <entryLink id="6827-27eb-e52a-0e37" name="Bladed limbs" hidden="false" collective="false" import="true" targetId="1d90-6e73-b21c-fae9" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="931c-f044-e488-d5fa" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="9872-983c-7b78-508d" type="max"/>
+                  </constraints>
+                </entryLink>
+                <entryLink id="185b-7128-264f-cd6d" name="Lightpod" hidden="false" collective="false" import="true" targetId="dae0-1e20-4942-db56" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="00cb-fdf3-a489-9973" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="af8a-4b93-22a8-0492" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="33.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="3509-521f-3519-7e6c" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="178e-1a7a-03c5-5379" name="Outrider Drones" hidden="false" collective="false" import="true" type="unit">
+      <modifiers>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+          <conditions>
+            <condition field="selections" scope="178e-1a7a-03c5-5379" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+          <conditions>
+            <condition field="selections" scope="178e-1a7a-03c5-5379" value="8.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="cdf8-f1b0-1f60-0075" name="Scuttling Advance" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Models in this unit don&apos;t suffer penalties to their hit roll for Advancing and firing Assault weapons.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="df06-d332-649c-d254" name="Outrider Drones" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">4</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">4</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">2</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">4+</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="324a-64e0-ce8d-bffd" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="67af-ba53-d856-ddb5" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+        <categoryLink id="104f-7063-55d1-d0c7" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="81f5-7cde-2141-1a00" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="2f0a-146b-4f9a-35c1" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
+        <categoryLink id="afa0-d2c8-614b-edac" name="Outrider Drones" hidden="false" targetId="5e3e-fe30-1b90-5996" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1d92-8391-6063-dbde" name="4 - 12 Outrider Drones" hidden="false" collective="false" import="true" defaultSelectionEntryId="a332-b9e8-a865-8432">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80e6-5291-7e3c-a9cb" type="min"/>
+            <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d9a7-1c58-b98e-f502" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="a332-b9e8-a865-8432" name="Outrider w/ drone laser" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a311-7778-da56-6380" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="52e9-5597-59f3-ad6a" name="Drone laser" hidden="false" collective="false" import="true" targetId="3a4b-7eeb-9470-c440" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f8f5-16e0-547c-1c81" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="819b-2623-b6f8-b0f6" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="13.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9717-02c8-03f5-88fa" name="Outrider w/ lightpod" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="10a7-9151-fd7f-48c7" type="max"/>
+              </constraints>
+              <entryLinks>
+                <entryLink id="06ca-91eb-2a41-7a5e" name="Lightpod" hidden="false" collective="false" import="true" targetId="dae0-1e20-4942-db56" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="633d-ab0d-fef9-74a2" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="79d2-88ba-2f41-9cdc" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="13.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="691b-2265-280b-bb3f" name="Outrider w/ flamer" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ac2b-ac3e-4c08-823f" type="max"/>
+              </constraints>
+              <selectionEntries>
+                <selectionEntry id="d934-81a8-3f63-267c" name="Flamer" hidden="false" collective="true" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0453-0efa-e44a-74c8" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f515-4283-5bba-13ea" type="max"/>
+                  </constraints>
+                  <infoLinks>
+                    <infoLink id="6fc8-1a13-fcb3-8468" name="Flamer" hidden="false" targetId="cdc3-3459-a28c-a9cf" type="profile"/>
+                  </infoLinks>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <costs>
+                <cost name="pts" typeId="points" value="13.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="808a-5811-74ca-9d6e" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="279b-fec6-e154-1485" name="Scout Drone Swarms" hidden="false" collective="false" import="true" type="unit">
+      <modifierGroups>
+        <modifierGroup>
+          <modifiers>
+            <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+              <conditions>
+                <condition field="selections" scope="279b-fec6-e154-1485" value="6.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+              <conditions>
+                <condition field="selections" scope="279b-fec6-e154-1485" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+              <conditions>
+                <condition field="selections" scope="279b-fec6-e154-1485" value="12.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="e356-c769-5920-6e14" value="3.0">
+              <conditions>
+                <condition field="selections" scope="279b-fec6-e154-1485" value="9.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="model" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+        </modifierGroup>
+      </modifierGroups>
+      <profiles>
+        <profile id="6632-7dc8-14f0-d0e5" name="Repair Protocol" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the end of your Movement phase, this unit can attempt to repair one friendly BLACKSTONE CONSTRUCTS unit within 3&quot;. If so, that unit recovers D3 lost wounds. These wounds can bring back slain models but may not bring a unit to a number of models greater than their original size.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="45ab-f9f7-9189-2d14" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="5257-02a6-09e3-bdba" name="New CategoryLink" hidden="false" targetId="c274d0b0-5866-44bc-9810-91c136ae7438" primary="true"/>
+        <categoryLink id="8e2c-704e-31ec-3158" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="9cde-c741-283a-7495" name="Infantry" hidden="false" targetId="3d52-fccf-10c0-3fae" primary="false"/>
+        <categoryLink id="4084-5430-4a9e-f3f7" name="Core" hidden="false" targetId="08f1-d244-eb44-7e01" primary="false"/>
+        <categoryLink id="e7f2-be18-5272-ed29" name="Scout Drones" hidden="false" targetId="6469-dc27-3b3b-4151" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="850f-b87b-856d-2e78" name="3 - 15 Scout Drones" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="58a1-8959-6e47-25e6" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="d663-33d8-b69c-8e40" name="Scout Drone Swarm" hidden="false" collective="false" import="true" type="model">
+              <constraints>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6d21-d85a-fe49-c734" type="min"/>
+                <constraint field="selections" scope="parent" value="15.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="94b1-babe-8d69-bb80" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="4ae8-abd0-fd08-a141" name="Scout Drone Swarm" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">10&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">-</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">3</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">3</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">3</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">5+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <entryLinks>
+                <entryLink id="2eb7-3a47-c9ae-6722" name="Bladed limbs" hidden="false" collective="false" import="true" targetId="1d90-6e73-b21c-fae9" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1328-2a48-f8a8-ccc4" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8855-9a12-85b5-9e10" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="b808-92e8-1f56-ca9b" name="Suppressor Drones Squadron" hidden="false" collective="false" import="true" type="unit">
+      <profiles>
+        <profile id="b55e-f93d-1969-056e" name="Weapon Platform" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228"/>
+          </characteristics>
+        </profile>
+      </profiles>
+      <infoLinks>
+        <infoLink id="f63d-eb56-329f-7b48" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+        <infoLink id="a7a4-95b3-214a-75b9" name="Independent Enforcers" hidden="false" targetId="e4a1-2aeb-a478-f0a9" type="profile"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="d469-ca21-a3b1-2aa1" name="New CategoryLink" hidden="false" targetId="abf5fd55-9ac7-4263-8bc1-a9fb0a8fa6a6" primary="true"/>
+        <categoryLink id="9ee8-6e8e-0363-6b98" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="4da3-64eb-9d3c-d7e0" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
+        <categoryLink id="5dae-3f45-7882-5f33" name="Suppressor Drone" hidden="false" targetId="ee96-1efa-ccc6-7f4b" primary="false"/>
+      </categoryLinks>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="1c86-cef6-8e8c-e962" name="1 - 3 Suppressor Drones" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="67a8-15c5-b0dd-1966" type="min"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="0f62-a323-ddaa-78ca" name="Suppressor Drone" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d1a-d7f0-85c3-1107" type="min"/>
+                <constraint field="selections" scope="parent" value="3.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="409e-9bb9-33c3-841c" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="980f-40b7-8c14-41bb" name="Suppressor Drone 1 (8+ wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">14</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="ae83-f547-2a2b-6326" name="Suppressor Drone 2 (4-7 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">4&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">D3</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="35bc-44fd-bfd5-7032" name="Suppressor Drone 3 (1-3 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+                  <characteristics>
+                    <characteristic name="M" typeId="0bdf-a96e-9e38-7779">2&quot;</characteristic>
+                    <characteristic name="WS" typeId="e7f0-1278-0250-df0c">5+</characteristic>
+                    <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+                    <characteristic name="S" typeId="2218-aa3c-265f-2939">6</characteristic>
+                    <characteristic name="T" typeId="9c9f-9774-a358-3a39">7</characteristic>
+                    <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+                    <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+                    <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+                    <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selectionEntries>
+                <selectionEntry id="8861-463a-588a-5ab2" name="Stabilising Feet" hidden="false" collective="false" import="true" type="upgrade">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c9c3-8fa7-465f-f4a6" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5117-2e3d-2686-18d8" type="max"/>
+                  </constraints>
+                  <profiles>
+                    <profile id="431f-59a2-c41c-13a6" name="Stabilising Feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                        <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                        <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+                        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Subtract 1 from the hit rolls when attacking with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
+                </selectionEntry>
+              </selectionEntries>
+              <selectionEntryGroups>
+                <selectionEntryGroup id="d887-e5df-2d5f-5cd9" name="Main weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="a4de-12ed-646f-0891">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="42e2-1a1a-a975-094b" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c806-9624-9ca6-ba0c" type="max"/>
+                  </constraints>
+                  <entryLinks>
+                    <entryLink id="a4de-12ed-646f-0891" name="Disgregator cannon" hidden="false" collective="false" import="true" targetId="cb65-db47-110d-92c1" type="selectionEntry"/>
+                    <entryLink id="6381-aba1-5158-1339" name="Kinetic bombarder" hidden="false" collective="false" import="true" targetId="4ac6-ee60-63f7-9d5b" type="selectionEntry">
+                      <costs>
+                        <cost name="pts" typeId="points" value="20.0"/>
+                      </costs>
+                    </entryLink>
+                  </entryLinks>
+                </selectionEntryGroup>
+                <selectionEntryGroup id="fa05-ea21-1140-2b82" name="Secondary weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="2301-68cc-924c-8bde">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1faf-9818-1425-4451" type="min"/>
+                    <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7a7e-3b32-0934-4483" type="max"/>
+                  </constraints>
+                  <selectionEntries>
+                    <selectionEntry id="2301-68cc-924c-8bde" name="2 drone lasers" hidden="false" collective="false" import="true" type="upgrade">
+                      <entryLinks>
+                        <entryLink id="72fb-9141-4a0c-4f1c" name="Drone laser" hidden="false" collective="false" import="true" targetId="4c2d-3512-eaed-50c2" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5d87-de34-7674-7ebd" type="max"/>
+                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="fc86-7e5b-e96d-71b1" type="min"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <costs>
+                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                        <cost name="pts" typeId="points" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                    <selectionEntry id="4b5e-2a48-f313-7d7b" name="2 heavy flamers" hidden="false" collective="false" import="true" type="upgrade">
+                      <entryLinks>
+                        <entryLink id="b372-0f1c-ee57-e760" name="Heavy flamer" hidden="false" collective="false" import="true" targetId="18bc-b335-29c2-2ae2" type="selectionEntry">
+                          <constraints>
+                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a344-4cb7-02cb-ae43" type="max"/>
+                            <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ffae-d4fb-157c-0fdb" type="min"/>
+                          </constraints>
+                        </entryLink>
+                      </entryLinks>
+                      <costs>
+                        <cost name="pts" typeId="points" value="8.0"/>
+                        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                      </costs>
+                    </selectionEntry>
+                  </selectionEntries>
+                </selectionEntryGroup>
+              </selectionEntryGroups>
+              <costs>
+                <cost name="pts" typeId="points" value="180.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="a3ee-bb09-d6c4-1e57" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="51dc-f1a0-f87b-ba1e" name="Mother Drone" hidden="false" collective="false" import="true" type="model">
+      <modifiers>
+        <modifier type="set-primary" field="category" value="26b0-4bb9-73aa-d3d7">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5baf-eed5-bb85-7325" type="instanceOf"/>
+          </conditions>
+        </modifier>
+        <modifier type="set-primary" field="category" value="c888f08a-6cea-4a01-8126-d374a9231554">
+          <conditions>
+            <condition field="selections" scope="force" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5baf-eed5-bb85-7325" type="notInstanceOf"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <profiles>
+        <profile id="5a17-1727-85cc-718f" name="Mother Drone 1 (21+ wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">12&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">3+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">8</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">40</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">6</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="0d8c-adc1-4127-0d92" name="Mother Drone 2 (11-20 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">10&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">4+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">8</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">3</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d114-d7f4-fdb8-e78a" name="Mother Drone 3 (6-10 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">8&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">5+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">8</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">D3</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="d5ca-5433-ea14-6384" name="Mother Drone 4 (1-5 wounds remaining)" hidden="false" typeId="800f-21d0-4387-c943" typeName="Unit">
+          <characteristics>
+            <characteristic name="M" typeId="0bdf-a96e-9e38-7779">6&quot;</characteristic>
+            <characteristic name="WS" typeId="e7f0-1278-0250-df0c">4+</characteristic>
+            <characteristic name="BS" typeId="381b-eb28-74c3-df5f">6+</characteristic>
+            <characteristic name="S" typeId="2218-aa3c-265f-2939">8</characteristic>
+            <characteristic name="T" typeId="9c9f-9774-a358-3a39">8</characteristic>
+            <characteristic name="W" typeId="f330-5e6e-4110-0978">N/A</characteristic>
+            <characteristic name="A" typeId="13fc-b29b-31f2-ab9f">1</characteristic>
+            <characteristic name="Ld" typeId="00ca-f8b8-876d-b705">10</characteristic>
+            <characteristic name="Save" typeId="c0df-df94-abd7-e8d3">3+</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="784e-3a86-cfc3-6db8" name="Colossal Behemoth" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with this rule can Fall Back in the movement phase and still shoot and/or charge during its turn. When this model Falls Back, it can even move over enemy models as long as they don&apos;t possess the TITANIC keyword and as long as it ends it&apos;s moving more than 1” from enemy models. This model may still shoot if there are enemy models within 1” of it, as long as those enemy units don&apos;t have the TITANIC keyword. In this case, it can shoot at enemies within 1” of itself or any other visible enemy unit that is not within 1” of a friendly unit. If the enemy units within 1&quot; are TITANIC, then this model can only target them with its ranged weapons. Finally, this model only gains a bonus to its armor save if at least half of it is obscured from the firing unit.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="1bd2-eddc-2abc-1a43" name="Repair Protocols" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your turn, this model can decide to repair one friendly BLACKSTONE CONSTRUCTS VEHICLE within 3&quot;. If you decide so, roll a D6; on a 2+ that model recovers D3 previously lost wounds. On a 6, that model regains D6 lost wounds instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="79bb-33b2-e1a7-c898" name="Mother Drone" hidden="false" typeId="b3a8-0452-7436-44d1" typeName="Transport">
+          <characteristics>
+            <characteristic name="Capacity" typeId="15aa-1916-a38b-d223">A Mother Drone can transport up to 20 BLACKSTONE CONSTRUCTS INFANTRY models and 1 BLACKSTONE CONSTRUCTS VEHICLE model (each INFANTRY model occupies a number of slots equal to its wounds characteristic).</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <rules>
+        <rule id="87af-45fb-c2f5-bfee" name="Blackstone Forge" hidden="false">
+          <description>At the start of your Movement phase, a Mother Drone can spawn Spindle Drones. If it does so, add a new unit of 6 Spindle Drones to your army and set it up on the battlefield so that it is wholly within 6&quot; of the Mother Drone and more than 1&quot; from the enemy. Alternatively, you can replace up to 6 models lost earlier in the battle in an existing unit of Spindle Drones from your army that is within 6&quot; of the Mother Drone. Models placed in this way must be within 6&quot; of the Mother Drone and more than 1&quot; from the enemy. In addition, each time this model kills a VEHICLE in the Fight phase or when it finds itself within 6&quot; of a place where a VEHICLE lost its last wound, this model gains one Material Token. At the beginning of your turn, you may expend any number of Tokens to produce a BLACKSTONE CONSTRUCTS unit. Choose one of the following and then roll a die; if the result is equal or higher the unit is spawned, place it within 6&quot; of this model; if the roll fails, this model suffers D3 mortal wounds. The units spawned by this rule count as reinforcements for all intents and purposes.
+
+-Shockpiercer Drone (1 Token/model): This model is generated on a roll of 3+. You may decide which type of wargear this model possesses based on the model&apos;s datasheet.
+
+-Suppressor Drone (1 Token/model): This model is generated on a roll of 4+. You may decide which type of wargear this model possesses based on the model&apos;s datasheet.</description>
+        </rule>
+      </rules>
+      <infoLinks>
+        <infoLink id="781b-782c-0113-8164" name="Army rules" hidden="false" targetId="a72b-381d-ef7b-c31d" type="infoGroup"/>
+      </infoLinks>
+      <categoryLinks>
+        <categoryLink id="af85-6fed-f3e6-697a" name="Faction: Blackstone Constructs" hidden="false" targetId="d7fd-e2a2-d1e6-518f" primary="false"/>
+        <categoryLink id="2110-583e-348a-6b26" name="Vehicle" hidden="false" targetId="c8fd-783f-3230-493e" primary="false"/>
+        <categoryLink id="f534-a7d2-6bbc-24a0" name="Titanic" hidden="false" targetId="bdda-36f0-4f32-1639" primary="false"/>
+        <categoryLink id="12b7-58ae-e174-e389" name="Control" hidden="false" targetId="1ee6-96f6-701b-26a9" primary="false"/>
+        <categoryLink id="5762-3515-015b-458d" name="Transport" hidden="false" targetId="6cc4-1b62-8e8a-05cd" primary="false"/>
+        <categoryLink id="d020-99cc-38ce-e29c" name="Mother Drone" hidden="false" targetId="22c0-150d-7726-375d" primary="false"/>
+      </categoryLinks>
+      <selectionEntries>
+        <selectionEntry id="871a-67ba-b667-ab45" name="Thermic Atomiser" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1ad1-6e0c-e594-4ba1" type="min"/>
+            <constraint field="selections" scope="parent" value="4.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6abc-9184-9af5-b166" type="max"/>
+          </constraints>
+          <infoLinks>
+            <infoLink id="9799-b6d6-b62e-4f0e" name="Thermic atomiser" hidden="false" targetId="3f29-feb9-be3c-1aab" type="infoGroup"/>
+          </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="2eb9-bbe7-03fd-65c8" name="Colossal feet" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b6b-f81a-bda5-518b" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="5f6a-1544-89f0-d558" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="4634-0342-1d97-ce68" name="Colossal feet" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Make 3 hit rolls for each attack made with this weapon, instead of 1.
+</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="e692-1e2c-d600-9bb8" name="Atomistic cone projector" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d4-cc6f-0f35-4839" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="ce44-35bd-be06-0176" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="cea1-b718-8eaa-3e92" name="Atomistic cone projector" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy D6</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon automatically hits its target.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="5a4d-4244-9008-dcf0" name="Macro destroyer pulse" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="561e-697c-41c4-4c08" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="605a-d9b8-b7d4-1a38" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="efd7-0073-cfbe-03f2" name="Macro destroyer pulse" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+              <characteristics>
+                <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+                <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+                <characteristic name="S" typeId="59b1-319e-ec13-d466">14</characteristic>
+                <characteristic name="AP" typeId="75aa-a838-b675-6484">-5</characteristic>
+                <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">6D3</characteristic>
+                <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="c66b-7bc9-1a33-467f" name="Secondary weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="c6cc-b3d5-8e7f-aeec">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e57f-4f96-e576-e3a0" type="min"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b65f-2582-9a98-bbe9" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="c6cc-b3d5-8e7f-aeec" name="Two disgregator cannons" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="64a4-c4c9-416a-12d1" name="Disgregator cannon" hidden="false" collective="false" import="true" targetId="cb65-db47-110d-92c1" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4ca9-e0db-60d3-dc61" type="min"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3f48-d833-6239-4dd2" type="max"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="8eb0-fbe5-3612-496e" name="Two Kinetic Bombarders" hidden="false" collective="false" import="true" type="upgrade">
+              <entryLinks>
+                <entryLink id="fa08-d5fc-f27c-ce26" name="Kinetic bombarder" hidden="false" collective="false" import="true" targetId="4ac6-ee60-63f7-9d5b" type="selectionEntry">
+                  <constraints>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7e1c-48f9-d29a-4b46" type="max"/>
+                    <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="331b-cb19-fab4-7e2f" type="min"/>
+                  </constraints>
+                </entryLink>
+              </entryLinks>
+              <costs>
+                <cost name="pts" typeId="points" value="40.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="148f-a985-e7da-5578" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
+      </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="580.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="35.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </selectionEntries>
+  <entryLinks>
+    <entryLink id="9719-45bb-af5e-1b73" name="Special Systems Installation" hidden="false" collective="false" import="true" targetId="0654-a5aa-1c89-cc8d" type="selectionEntry">
+      <categoryLinks>
+        <categoryLink id="7d25-47d6-af00-0fa7" name="New CategoryLink" hidden="false" targetId="c845-c72c-6afe-3fc2" primary="true"/>
+      </categoryLinks>
+    </entryLink>
+  </entryLinks>
+  <sharedSelectionEntries>
+    <selectionEntry id="fc97-ba52-fccd-a100" name="Bladed limbs" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b7a0-857b-fddd-f7ba" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="28a4-1bcb-0cc9-1589" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="93f5-249a-145c-96b8" name="Bladed limbs" hidden="false" targetId="96e8-640c-46d6-52e5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="5ef2-d0ec-8f07-eb30" name="Enhanced drone pulse" hidden="false" collective="false" import="true" type="upgrade">
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4c2d-3512-eaed-50c2" name="Drone laser" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="77c6-e0de-357d-c6a1" name="Drone laser" hidden="false" targetId="8e98-4f44-0834-82d5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="9369-d645-4d40-7bc2" name="Lightpod" hidden="false" collective="false" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="39b1-d30b-6de3-9b13" name="Lightpod" hidden="false" targetId="1a9f-eb93-de1a-dcba" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="e336-e7cc-fb78-12b6" name="Manipulator limbs" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="787b-691f-6a06-0a9d" name="Manipulator limbs" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="765a-51ea-2db9-9cfe" name="Drone pulse" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="2fde-2770-0801-158a" name="Drone pulse" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">3</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">0</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="f3b9-d823-81c6-cbe6" name="Hover drones" hidden="false" collective="true" import="true" type="upgrade">
+      <profiles>
+        <profile id="e207-2a58-c5ed-3f40" name="Hover drones" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a die each time a model with hover drones would lose a wound; on a 5+ that wound is not lost.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="7022-d105-e28e-771b" name="EMP blaster" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="1704-d8b9-ef76-5064" name="EMP Blaster" hidden="false" targetId="ae60-55d4-6092-4eaa" type="infoGroup"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="1d90-6e73-b21c-fae9" name="Bladed limbs" hidden="false" collective="true" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e0e9-4360-f958-9c06" type="min"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="919d-9ad1-c438-8ea2" type="max"/>
+      </constraints>
+      <infoLinks>
+        <infoLink id="7b23-7488-42d8-f833" name="Bladed limbs" hidden="false" targetId="96e8-640c-46d6-52e5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="dae0-1e20-4942-db56" name="Lightpod" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="3907-25a1-f10d-e6b0" name="Lightpod" hidden="false" targetId="1a9f-eb93-de1a-dcba" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3a4b-7eeb-9470-c440" name="Drone laser" hidden="false" collective="true" import="true" type="upgrade">
+      <infoLinks>
+        <infoLink id="c233-60df-6b62-23eb" name="Drone laser" hidden="false" targetId="8e98-4f44-0834-82d5" type="profile"/>
+      </infoLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="cb65-db47-110d-92c1" name="Disgregator cannon" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="fd8f-2332-7386-2ffc" name="Disgregator cannon" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">36&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 1</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">9</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">An enemy unit that has to make a save roll against a wound caused by this weapon has to subtract 1 from the result. Treat damage rolls of 1, 2 or 3 made by this weapon as 4 instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="4ac6-ee60-63f7-9d5b" name="Kinetic bombarder" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="3947-e2bc-267e-7096" name="Kinetic bombarder" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;-48&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Heavy 2D3</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">4</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D3</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon can be fired at units that are not visible to the bearer. Units attacked by this weapon do not gain any bonus to their saving throws for being in cover and until the end of their next Movement phase its Move characteristic is halved and they cannot Advance. If this model has remained stationary, change this weapon&apos;s Type to Heavy 4D3 and its Strength characteristic to 6.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="ad56-3320-c07a-8d1c" name="Warlord" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="02cb-1f62-6705-59c7" type="max"/>
+      </constraints>
+      <categoryLinks>
+        <categoryLink id="92ea-8dcf-78fa-6334" name="Warlord" hidden="false" targetId="ae09-117e-a6fa-316b" primary="false"/>
+      </categoryLinks>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="3643-28f9-1a4b-82fb" name="Amplified Command Network" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="increment" field="9d7d-d00c-ecf6-d606" value="2.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fad2-035f-88a7-60c0" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="9d7d-d00c-ecf6-d606" value="1.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="09f9-b586-8d63-7635" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="increment" field="9d7d-d00c-ecf6-d606" value="3.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e6c7-87a2-73a3-a475" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="set" field="cd8e-c4a7-9b88-9c20" value="0.0">
+          <conditions>
+            <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad56-3320-c07a-8d1c" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="9d7d-d00c-ecf6-d606" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cd8e-c4a7-9b88-9c20" type="max"/>
+      </constraints>
+      <costs>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="0654-a5aa-1c89-cc8d" name="Special Systems Installation" hidden="false" collective="false" import="true" type="upgrade">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="213d-b120-2120-18ee" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3b62-0ee0-588d-ccf8" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="e1d4-a91e-bffe-5aa2" name="Additional Relics" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="increment" field="1b6c-a17b-8b73-45d0" value="2.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="fad2-035f-88a7-60c0" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="1b6c-a17b-8b73-45d0" value="1.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="09f9-b586-8d63-7635" type="equalTo"/>
+              </conditions>
+            </modifier>
+            <modifier type="increment" field="1b6c-a17b-8b73-45d0" value="3.0">
+              <conditions>
+                <condition field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e6c7-87a2-73a3-a475" type="equalTo"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1b6c-a17b-8b73-45d0" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6404-ffb9-72ab-abce" type="min"/>
+          </constraints>
+          <costs>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntry>
+    <selectionEntry id="5601-7a64-2311-7d91" name="EMP shockwave emitter" hidden="false" collective="false" import="true" type="upgrade">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditions>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="20fb-c61d-f2a1-0fb4" type="equalTo"/>
+          </conditions>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a804-c1eb-d09e-645b" type="max"/>
+      </constraints>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+  </sharedSelectionEntries>
+  <sharedSelectionEntryGroups>
+    <selectionEntryGroup id="3e8f-eb8b-bcbb-1c1c" name="Special systems" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad56-3320-c07a-8d1c" type="equalTo"/>
+                <condition field="selections" scope="roster" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e1d4-a91e-bffe-5aa2" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6602-f503-b502-7d23" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="f830-ef7c-d5e9-8228" name="Advanced repair system" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8fb0-538a-91c6-6b26" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f30f-2530-578d-a701" name="Advanced repair system" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a die each time this model would lose a wound, on a 4+ that wound is not lost. In addition, the first time this model is destroyed, roll a die at the end of the current phase; on a 2+ this model is brought back to life with D6 remaining wounds, place it as close as possible to its original position and more than 1&quot; from enemy units. If you cannot do this because there is no room to place the model, the model is immediately slain.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3899-7fe0-4584-bb20" name="Blackstone core" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c40a-60d7-b884-b78e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ebd2-5b4f-9697-3de5" name="Blackstone core" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This model can never be targeted or affected by psychic powers in any way and enemy PSYKERS within 12&quot; of this model must subtract 2 from Psychic tests and Deny the witch tests they take.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="3bf8-6245-8fe7-170b" name="Lightweight Alloy Chassis" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="7608-0637-23cb-0a43" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="f738-75c4-04c7-5997" name="Lightweight Alloy Chassis" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Add 2&quot; to the Movement characteristic of this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="19d0-ff73-af9a-7eb5" name="Reactor Core Self-detonation" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="c819-355e-bc95-c706" name="Reactor Core Self-detonation" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Roll a die when this model loses its last wound; on a 2+, every unit within 3&quot; suffers 2D3 mortal wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+        </selectionEntry>
+        <selectionEntry id="f603-9a1e-bbc2-8264" name="Impactor Drone Pulse" hidden="false" collective="false" import="true" type="upgrade">
+          <modifiers>
+            <modifier type="set" field="hidden" value="true">
+              <conditionGroups>
+                <conditionGroup type="and">
+                  <conditions>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="04af-a3e0-c528-7e15" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ba0f-b746-51dd-0531" type="equalTo"/>
+                    <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="551d-7151-d827-f4e2" type="equalTo"/>
+                  </conditions>
+                </conditionGroup>
+              </conditionGroups>
+            </modifier>
+          </modifiers>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="d38d-61e7-fc57-8cb9" name="EMP shockwave emitter" hidden="false" collective="false" import="true" targetId="5601-7a64-2311-7d91" type="selectionEntry"/>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5aa7-bd84-67f7-a091" name="Alignment code" hidden="false" collective="false" import="true">
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ce-35e6-108a-b216" type="max"/>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f35-6b5f-a4cb-1118" type="max"/>
+      </constraints>
+      <selectionEntries>
+        <selectionEntry id="c1b8-6719-b066-1aac" name="Close range target elimination" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="031f-dcab-8c5e-dd3e" name="Close range target elimination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit with this Alignment Code can re-roll wound rolls in its Fight phase if it&apos;s attacking an enemy unit that contains more models than its own.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="d1fa-3197-215c-54e5" name="Long range suppression" hidden="false" collective="false" import="true" type="upgrade">
+          <profiles>
+            <profile id="b8cb-8273-b8a0-f2e2" name="Long range suppression" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit with this Alignment Code can re-roll wound rolls in its Shooting phase if it&apos;s targeting an enemy unit that contains 6 or more models.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="20.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="5ad9-ac06-9883-77f5" name="Additional systems" hidden="false" collective="false" import="true">
+      <selectionEntries>
+        <selectionEntry id="a309-1d3b-a9bb-c233" name="Advanced optical lenses" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="721a-a2bf-fbd5-863e" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="ca01-d3a8-6848-9c60" name="Advanced optical lenses" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A model with advanced optical lenses does not suffer any penalties to its attacks. In addition, enemy units targeted by a model with advanced optical lenses don not gain any bonus to their saving throws for being in cover.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="15.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+        <selectionEntry id="912c-ae6d-6977-db65" name="Target triangulation sensor" hidden="false" collective="false" import="true" type="upgrade">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a987-b3f9-702a-1206" type="max"/>
+          </constraints>
+          <profiles>
+            <profile id="33eb-cf9f-d74d-2b63" name="Target triangulation sensor" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+              <characteristics>
+                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the beginning of your Shooting phase, select one enemy unit within 12&quot; of a model with a Target-triangulation Sensor. Until the end of the phase, friendly BLACKSTONE CONSTRUCTS unit can target that unit even if it&apos;s not in their direct line of sight but the enemy unit counts as having the benefit of Light Cover.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <costs>
+            <cost name="pts" typeId="points" value="25.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+          </costs>
+        </selectionEntry>
+      </selectionEntries>
+      <entryLinks>
+        <entryLink id="96fa-2c19-6928-3bcf" name="Hover drones" hidden="false" collective="false" import="true" targetId="f3b9-d823-81c6-cbe6" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a442-b5e0-6fca-2aae" type="max"/>
+          </constraints>
+          <costs>
+            <cost name="pts" typeId="points" value="10.0"/>
+          </costs>
+        </entryLink>
+      </entryLinks>
+    </selectionEntryGroup>
+    <selectionEntryGroup id="65d4-cf4b-fb66-abf8" name="Warlord Traits" hidden="false" collective="false" import="true">
+      <modifiers>
+        <modifier type="set" field="hidden" value="true">
+          <conditionGroups>
+            <conditionGroup type="and">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="ad56-3320-c07a-8d1c" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3643-28f9-1a4b-82fb" type="equalTo"/>
+              </conditions>
+            </conditionGroup>
+          </conditionGroups>
+        </modifier>
+        <modifier type="increment" field="33ae-7484-4c1f-23b5" value="1.0">
+          <repeats>
+            <repeat field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3643-28f9-1a4b-82fb" repeats="1" roundUp="false"/>
+          </repeats>
+        </modifier>
+      </modifiers>
+      <constraints>
+        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7b34-f5af-f15b-0b76" type="max"/>
+        <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="33ae-7484-4c1f-23b5" type="max"/>
+      </constraints>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="7c1c-1216-afed-cc44" name="Warlord Traits (Blackstone Constructs)" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="24d6-0067-b48c-920d" type="max"/>
+          </constraints>
+          <selectionEntries>
+            <selectionEntry id="30bb-ec54-2f1f-37b3" name="1. Advanced Communication Network" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="8f32-ce7f-887e-cb37" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="3b9a-e2d0-edcc-3563" name="Advanced Communication Network" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Double the range of your WARLORD&apos;s Aura abilities. In addition, each time you use a Stratagem on your WARLORD or a friendly BLACKSTONE CONSTRUCT unit within 6&quot; of it, roll a die; on a 5+ you gain one Command Point.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="2ed9-770d-023b-f766" name="2. Energy Jamming Emitter" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bea5-0a5d-3706-5de1" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="0e82-1e91-1032-ecfc" name="Energy Jamming Emitter" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Enemy units may not use their invulnerable save while within 6&quot; of your WARLORD. In addition, each time an enemy unit fires its weapons while within 12&quot; of your WARLORD, on an unmodified hit roll of 1, the bearer is slain after all of this weapon’s shots have been resolved (unless the bearer is a MONSTER or a VEHICLE, in which case it suffers D3 mortal wounds).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="85a7-df86-0ab9-896e" name="3. Marked by the Old Ones" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="d768-9faa-5db0-72d5" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="8a75-d132-2ff9-46c9" name="Marked by the Old Ones" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Your WARLORD always hits on a hit roll of 2+, regardless of any modifiers. In addition, at the start of the battle, you gain D3 additional Command Points.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="9270-1a0c-4095-fc74" name="4. Self-repair Mechanism" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="c4d9-a38a-6a8c-b995" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="760f-7f04-ea43-8265" name="Self-repair Mechanism" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">Subtract 1 from enemy hit rolls that target this WARLORD in the Fight Phase, and at the start of your turn, this model recovers D3 previously lost wounds.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="270f-d21f-4d00-7fb7" name="5. Systematic Coordination" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="bc57-457c-9b68-75bd" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="51ff-343d-67e0-8358" name="Systematic Coordination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of your Shooting phase, select one enemy unit that is visible to your WARLORD. Until the beginning of your next turn, friendly BLACKSTONE CONSTRUCTS units within 12&quot; of your Warlord that target that unit may re-roll any hit roll and wound roll of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+            <selectionEntry id="4934-3d12-a7ed-776b" name="6. Vital Systems Compromised" hidden="false" collective="false" import="true" type="upgrade">
+              <constraints>
+                <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="f0cd-1d0f-52bb-f96a" type="max"/>
+              </constraints>
+              <profiles>
+                <profile id="40ce-66f8-2dd2-c021" name="Vital Systems Compromised" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+                  <characteristics>
+                    <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">If your Warlord is slain, you automatically lose D3 victory points, but in addition, you can select one more Attack Directive than the number determined by the Gradual Aggressiveness special rule and all friendly units ignore damage received on a 6+ for the rest of the battle. If a unit already has a rule that lets it ignore damage, add one to the roll (up to a 4+).</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
+            </selectionEntry>
+          </selectionEntries>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
+      <entryLinks>
+        <entryLink id="c580-b2ef-04de-c672" name="Warlord Traits (BRB)" hidden="false" collective="false" import="true" targetId="d442-1f03-d9da-e77f" type="selectionEntryGroup"/>
+      </entryLinks>
+    </selectionEntryGroup>
+  </sharedSelectionEntryGroups>
+  <sharedProfiles>
+    <profile id="d3a1-4d78-d024-21c1" name="Shield Generator" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">This unit has a 5+ Invulnerable save. If this unit doesn&apos;t move in its Movement phase then add 1 to its Invulnerable save until the beginning of your next Movement phase.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="e4a1-2aeb-a478-f0a9" name="Independent Enforcers" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+      <characteristics>
+        <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">The first time this unit is set up on the battlefield, all of its models must be placed within 6&quot; of at least one other model in their unit. From that point onwards, each operates independently and is treated as a separate unit.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="96e8-640c-46d6-52e5" name="Bladed limbs" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">Melee</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Melee</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">User</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Double the number of attacks you make with this weapon in a turn in which the bearer charged.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="1a9f-eb93-de1a-dcba" name="Lightpod" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon does not inflict any damage. Your opponent must subtract 1 from any hit rolls made for non-VEHICLE or non-TITANIC units that have suffered a hit from this weapon until the beginning of your next turn. In addition, a unit hit by this weapon can&apos;t be selected to fire overwatch in the following Assault phase. Only one model in a unit may fire with this weapon.</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="8e98-4f44-0834-82d5" name="Drone laser" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">24&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 1</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">-3</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D2+1</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="f8f0-3849-70b6-7b51" name="Enhanced drone pulse" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">-2</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">2</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">-</characteristic>
+      </characteristics>
+    </profile>
+    <profile id="2d85-333e-cd1e-a7e8" name="Impactor drone pulse" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+      <characteristics>
+        <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+        <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+        <characteristic name="S" typeId="59b1-319e-ec13-d466">*</characteristic>
+        <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+        <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">3</characteristic>
+        <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">This weapon wounds the target on a roll equal to its unmodified Armour save. Armour saves can&apos;t be taken for attacks made by this weapon.</characteristic>
+      </characteristics>
+    </profile>
+  </sharedProfiles>
+  <sharedInfoGroups>
+    <infoGroup id="a72b-381d-ef7b-c31d" name="Army rules" hidden="false">
+      <rules>
+        <rule id="0c7d-dabb-fb4c-771a" name="Attack Directives" hidden="false">
+          <description>At the start of your turn, select one of the following directives, every friendly BLACKSTONE CONSTRUCTS unit within 12&quot; of a CONTROL unit benefits from that directive&apos;s effect until the beginning of your next turn.
+-1: Ambient Light Absorption: Subtract 1 from the hit rolls made by enemy units which target a unit affected by this directive, if the targeting unit is more than 18” away. In addition, enemy units subtract 1 from their leadership characteristic while within 6” of a unit affected by this directive.
+-2: Dark Matter Attack Protocol: Consider the AP and the Damage characteristic of Assault and Heavy weapons (that don&apos;t automatically hit their target) the units affected by this directive are equipped with as one point better.
+-3: Engagement Priority Subroutine: You can re-roll advance and charge distances for units affected by this directive.
+-4: Focused Weakness Analysis: Add 1 to the result of wound rolls for units affected by this directive.
+-5: Hostile Lynchpin Interception and Annihilation: Units affected by this directive may target enemy units that are within engagement range of other friendly BLACKSTONE CONSTRUCTS units with all of their ranged weapons except for those with the Blast ability or that automatically hit their target.
+-6: Impact and Trauma Overdrive: Add 1 to the Strength and Attacks characteristics of units affected by this directive.</description>
+        </rule>
+        <rule id="1e5f-8df0-4572-3ce9" name="Cold Machines" hidden="false">
+          <description>BLACKSTONE CONSTRUCTS units automatically pass all Morale and Leadership tests and cannot be affected by special rules or stratagems that harm them based on their Leadership characteristic. In addition, every BLACKSTONE CONSTRUCTS unit is considered to have the VEHICLE keyword for the purpose of enemy Stratagems and special rules. For the purpose of this codex&apos;s rules and Stratagems, only consider as VEHICLE units those who possess the actual keyword in their datasheet.</description>
+        </rule>
+        <rule id="598e-2c9b-1d07-3267" name="Gradual Aggressiveness" hidden="false">
+          <description>During the course of the battle, keep track of how many friendly BLACKSTONE CONSTRUCTS models you lose; depending on the percentage of lost points, you can select a number of Attack Directives equal to the table below.
+
+&lt;25% - 1
+25-49% - 2
+50-74% - 3
+&gt;75% - 4</description>
+        </rule>
+        <rule id="a9b1-6dbc-879d-a16a" name="Objective Secured" hidden="false">
+          <description>If your army is Battle-forged, all units in BLACKSTONE CONSTRUCTS Detachments gain this ability. Such a unit that is within range of an objective marker (as specified in the mission) controls the objective marker even if there are more enemy models within range of that objective marker. If an enemy unit within range of the same objective marker has a similar ability, then the objective marker is controlled by the player who has the most models within range of it as normal.</description>
+        </rule>
+      </rules>
+    </infoGroup>
+    <infoGroup id="ae60-55d4-6092-4eaa" name="EMP Blaster" hidden="false">
+      <profiles>
+        <profile id="98de-6e9e-5a36-e5cc" name="EMP blaster 1 (close range)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">6&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Do not roll to wound for this weapon. Instead, roll a D6 for each attack that hits a VEHICLE. On a 3+, the target suffers D3 mortal wounds. On a 5+, it suffers D6 mortal wounds instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="dcf8-55a7-9622-33f0" name="EMP blaster 2 (medium range)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Do not roll to wound for this weapon. Instead, roll a D6 for each attack that hits a VEHICLE. On a 4+, the target suffers D3 mortal wounds. On a 6+, it suffers D6 mortal wounds instead.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="141b-1040-569a-9d32" name="EMP blaster 3 (long range)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">18&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Assault 2</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">-</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">-</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">Do not roll to wound for this weapon. Instead, roll a D6 for each attack that hits a VEHICLE. On a 4+, the target suffers D3 mortal wounds. On a 6+, it suffers D3+1 mortal wounds instead.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+    <infoGroup id="3f29-feb9-be3c-1aab" name="Thermic atomiser" hidden="false">
+      <profiles>
+        <profile id="c73e-0a3a-817d-fd54" name="Thermic atomiser (dispersed)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">8&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol D6</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">5</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-1</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">1</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When you use this profile, this weapon automatically hits its target. This weapon can be fired even if the bearer advanced in its Movement phase.</characteristic>
+          </characteristics>
+        </profile>
+        <profile id="49d2-80a2-1495-6b90" name="Thermic atomiser (focused)" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
+          <characteristics>
+            <characteristic name="Range" typeId="6fa97fa8-ea74-4a27-a0fb-bc4e5f367464">12&quot;</characteristic>
+            <characteristic name="Type" typeId="077c342f-d7b9-45c6-b8af-88e97cafd3a2">Pistol 1</characteristic>
+            <characteristic name="S" typeId="59b1-319e-ec13-d466">8</characteristic>
+            <characteristic name="AP" typeId="75aa-a838-b675-6484">-4</characteristic>
+            <characteristic name="D" typeId="ae8a-3137-d65b-4ca7">D6</characteristic>
+            <characteristic name="Abilities" typeId="837d-5e63-aeb7-1410">When you use this profile, if the target is within half range, you can re-roll the wound roll; in addition, that attack has a Damage characteristic of D6+2.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+    </infoGroup>
+  </sharedInfoGroups>
+</catalogue>
