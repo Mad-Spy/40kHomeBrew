@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="1a76-7ee8-7be8-ad11" name="Blackstone Constructs" revision="2" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="1a76-7ee8-7be8-ad11" name="Blackstone Constructs" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <categoryEntries>
     <categoryEntry id="d7fd-e2a2-d1e6-518f" name="Faction: Blackstone Constructs" hidden="false"/>
     <categoryEntry id="8f82-24ca-1d43-d69b" name="Commander Drone" hidden="false"/>
@@ -234,6 +234,11 @@
                   </modifiers>
                 </infoLink>
               </infoLinks>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
           <entryLinks>
@@ -249,6 +254,25 @@
             </entryLink>
           </entryLinks>
         </selectionEntryGroup>
+        <selectionEntryGroup id="a8e8-2421-6416-99a5" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="225e-5707-ee55-8a69" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8236-c153-0ea6-e21b" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="4535-deec-e31f-fa54" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
       <entryLinks>
         <entryLink id="1ab6-714a-d389-8e39" name="Bladed limbs" hidden="false" collective="false" import="true" targetId="fc97-ba52-fccd-a100" type="selectionEntry"/>
@@ -260,7 +284,6 @@
             <cost name="pts" typeId="points" value="7.0"/>
           </costs>
         </entryLink>
-        <entryLink id="82fe-63bf-6bb1-89a4" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
         <entryLink id="9d8b-8aff-2a3c-1aca" name="Additional systems" hidden="false" collective="false" import="true" targetId="5ad9-ac06-9883-77f5" type="selectionEntryGroup"/>
         <entryLink id="a4b5-bb1e-28b0-5cf3" name="Warlord" hidden="false" collective="false" import="true" targetId="ad56-3320-c07a-8d1c" type="selectionEntry"/>
         <entryLink id="83ac-4b9f-31c8-7d4b" name="Amplified Command Network" hidden="false" collective="false" import="true" targetId="3643-28f9-1a4b-82fb" type="selectionEntry">
@@ -389,11 +412,36 @@
               </modifiers>
             </infoLink>
           </infoLinks>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
+      <selectionEntryGroups>
+        <selectionEntryGroup id="5d61-c333-0557-c772" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d38e-6b96-c95d-c3cc" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="8caa-d14f-2fd9-0a4f" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+                <cost name="pts" typeId="points" value="10.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="43ad-f402-3d4e-de83" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
+      </selectionEntryGroups>
       <entryLinks>
         <entryLink id="f4e6-1922-2f8f-046e" name="Additional systems" hidden="false" collective="false" import="true" targetId="5ad9-ac06-9883-77f5" type="selectionEntryGroup"/>
-        <entryLink id="dac6-5a72-e125-3568" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
         <entryLink id="0d24-7830-61f3-937b" name="Manipulator limbs" hidden="false" collective="false" import="true" targetId="e336-e7cc-fb78-12b6" type="selectionEntry">
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="6a5f-4690-360c-53dc" type="min"/>
@@ -521,10 +569,40 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="f081-54ba-b9be-972f" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e00d-acf6-41d5-a297" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="1401-6dbd-da49-9f1b" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="3270-d265-1765-04ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="10.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+            <entryLink id="603d-27d6-2edd-f3ff" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="3270-d265-1765-04ca" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="20.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="3a30-b184-101a-20fd" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -683,10 +761,40 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="9253-25ce-652c-1381" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8b59-8bab-0803-6ca0" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="07d7-63ff-66f7-d6fa" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="8487-dcee-62f0-b7ab" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="10.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+            <entryLink id="330b-583d-b760-e96e" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="8487-dcee-62f0-b7ab" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="20.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="f9cb-0426-4f73-9dee" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -794,10 +902,40 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="8c2c-f76c-f416-a40f" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="f45f-8460-9071-423c" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="748f-4058-7da6-023a" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="2996-4e7a-b139-929d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="10.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+            <entryLink id="d1e5-11bf-2f89-7f37" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="2996-4e7a-b139-929d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="20.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="06db-2996-e527-e7d3" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -941,6 +1079,11 @@
                       </modifiers>
                     </infoLink>
                   </infoLinks>
+                  <costs>
+                    <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                    <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                    <cost name="pts" typeId="points" value="0.0"/>
+                  </costs>
                 </selectionEntry>
               </selectionEntries>
               <entryLinks>
@@ -1087,10 +1230,40 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="e818-9df6-7382-a0b6" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e8ef-61d3-424e-9220" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="a1d2-cc1a-b73e-15ea" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="a46e-99ea-c2c6-486d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="10.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+            <entryLink id="39e1-b0ce-0611-74c2" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="a46e-99ea-c2c6-486d" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="20.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="379e-96b3-0197-f05f" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -1217,10 +1390,40 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="16b3-c94c-680c-516d" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9d6-1c9d-5122-9140" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="17f7-b2ec-dbae-05fa" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="83fa-7815-9a8e-cb19" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="10.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+            <entryLink id="aa27-875b-cc64-842d" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="83fa-7815-9a8e-cb19" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="20.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="3509-521f-3519-7e6c" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="5.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -1376,10 +1579,40 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="f45f-4279-2cf0-efdb" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="808e-75c9-9aba-9b97" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="0d50-3c19-a45b-238a" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="178e-1a7a-03c5-5379" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="10.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+            <entryLink id="80df-c3b2-0c19-f16f" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="178e-1a7a-03c5-5379" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="20.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="808a-5811-74ca-9d6e" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="3.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -1713,10 +1946,40 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="cee3-2bf3-6412-7fa5" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="87a9-a940-225e-a2ef" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="fc55-4502-2c0a-f46f" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="b808-92e8-1f56-ca9b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="10.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+            <entryLink id="6b3b-15b6-9e25-71fa" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <modifierGroups>
+                <modifierGroup>
+                  <repeats>
+                    <repeat field="selections" scope="b808-92e8-1f56-ca9b" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="model" repeats="1" roundUp="false"/>
+                  </repeats>
+                  <modifiers>
+                    <modifier type="increment" field="e356-c769-5920-6e14" value="1.0"/>
+                    <modifier type="increment" field="points" value="20.0"/>
+                  </modifiers>
+                </modifierGroup>
+              </modifierGroups>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="a3ee-bb09-d6c4-1e57" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="9.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
@@ -1992,10 +2255,26 @@
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
+        <selectionEntryGroup id="4c6c-116d-c00f-926e" name="Alignment Code" hidden="false" collective="false" import="true">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="c6c7-d50d-0249-108f" type="max"/>
+          </constraints>
+          <entryLinks>
+            <entryLink id="63bd-e992-754f-38f3" name="Close range target elimination" hidden="false" collective="false" import="true" targetId="867b-c013-f814-7fb8" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="10.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+              </costs>
+            </entryLink>
+            <entryLink id="f9b2-4f6a-7cd3-71c3" name="Long range suppression" hidden="false" collective="false" import="true" targetId="a92b-2b31-bc95-5927" type="selectionEntry">
+              <costs>
+                <cost name="pts" typeId="points" value="20.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
+              </costs>
+            </entryLink>
+          </entryLinks>
+        </selectionEntryGroup>
       </selectionEntryGroups>
-      <entryLinks>
-        <entryLink id="148f-a985-e7da-5578" name="Alignment code" hidden="false" collective="false" import="true" targetId="5aa7-bd84-67f7-a091" type="selectionEntryGroup"/>
-      </entryLinks>
       <costs>
         <cost name="pts" typeId="points" value="580.0"/>
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="35.0"/>
@@ -2024,6 +2303,8 @@
               </rules>
               <costs>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
             <selectionEntry id="f63b-764a-9391-11f7" name="Shattered Fortress" hidden="false" collective="false" import="true" type="upgrade">
@@ -2034,11 +2315,18 @@
               </rules>
               <costs>
                 <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
               </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e76d-a33c-eebd-b02e" name="Formation: Enduring Victory" hidden="true" collective="false" import="true" type="upgrade">
       <modifierGroups>
@@ -2062,6 +2350,8 @@
       </categoryLinks>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="6f23-a522-ae90-e4ed" name="Formation: Intrusion First Response" hidden="true" collective="false" import="true" type="upgrade">
@@ -2086,6 +2376,8 @@
       </categoryLinks>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-3.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="8c5d-300f-7e65-2a5f" name="Formation: The Three Witches" hidden="true" collective="false" import="true" type="upgrade">
@@ -2110,6 +2402,8 @@
       </categoryLinks>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-5.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
   </selectionEntries>
@@ -2338,6 +2632,8 @@
       </constraints>
       <costs>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
       </costs>
     </selectionEntry>
     <selectionEntry id="0654-a5aa-1c89-cc8d" name="Special Systems Installation" hidden="false" collective="false" import="true" type="upgrade">
@@ -2370,9 +2666,16 @@
           </constraints>
           <costs>
             <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="-1.0"/>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5601-7a64-2311-7d91" name="EMP shockwave emitter" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -2389,6 +2692,30 @@
         <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
         <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
         <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="867b-c013-f814-7fb8" name="Close range target elimination" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="8c4e-b209-ecfa-51c4" name="Close range target elimination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit with this Alignment Code can re-roll wound rolls in its Fight phase if it is attacking an enemy unit that contains more models than its own.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+      </costs>
+    </selectionEntry>
+    <selectionEntry id="a92b-2b31-bc95-5927" name="Long range suppression" hidden="false" collective="false" import="true" type="upgrade">
+      <profiles>
+        <profile id="80d3-1f89-d3b2-86c4" name="Long range suppression" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
+          <characteristics>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit with this Alignment Code can re-roll wound rolls in its Shooting phase if it is targeting an enemy unit that contains 6 or more models.</characteristic>
+          </characteristics>
+        </profile>
+      </profiles>
+      <costs>
+        <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
       </costs>
     </selectionEntry>
   </sharedSelectionEntries>
@@ -2455,6 +2782,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="19d0-ff73-af9a-7eb5" name="Reactor Core Self-detonation" hidden="false" collective="false" import="true" type="upgrade">
           <profiles>
@@ -2464,6 +2796,11 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="f603-9a1e-bbc2-8264" name="Impactor Drone Pulse" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2479,6 +2816,11 @@
               </conditionGroups>
             </modifier>
           </modifiers>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="b4fb-3be3-849f-0796" name="Daemon Pulse Eraser" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2499,6 +2841,11 @@
               </conditions>
             </modifier>
           </modifiers>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
         <selectionEntry id="5983-57db-6f78-8c18" name="Emergency Communication Relay" hidden="false" collective="false" import="true" type="upgrade">
           <modifiers>
@@ -2515,47 +2862,16 @@
               </characteristics>
             </profile>
           </profiles>
+          <costs>
+            <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <entryLinks>
         <entryLink id="d38d-61e7-fc57-8cb9" name="EMP shockwave emitter" hidden="false" collective="false" import="true" targetId="5601-7a64-2311-7d91" type="selectionEntry"/>
       </entryLinks>
-    </selectionEntryGroup>
-    <selectionEntryGroup id="5aa7-bd84-67f7-a091" name="Alignment code" hidden="false" collective="false" import="true">
-      <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="80ce-35e6-108a-b216" type="max"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4f35-6b5f-a4cb-1118" type="max"/>
-      </constraints>
-      <selectionEntries>
-        <selectionEntry id="c1b8-6719-b066-1aac" name="Close range target elimination" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="031f-dcab-8c5e-dd3e" name="Close range target elimination" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit with this Alignment Code can re-roll wound rolls in its Fight phase if it&apos;s attacking an enemy unit that contains more models than its own.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="10.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
-        </selectionEntry>
-        <selectionEntry id="d1fa-3197-215c-54e5" name="Long range suppression" hidden="false" collective="false" import="true" type="upgrade">
-          <profiles>
-            <profile id="b8cb-8273-b8a0-f2e2" name="Long range suppression" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
-              <characteristics>
-                <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">A unit with this Alignment Code can re-roll wound rolls in its Shooting phase if it&apos;s targeting an enemy unit that contains 6 or more models.</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="20.0"/>
-            <cost name=" PL" typeId="e356-c769-5920-6e14" value="1.0"/>
-            <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
-          </costs>
-        </selectionEntry>
-      </selectionEntries>
     </selectionEntryGroup>
     <selectionEntryGroup id="5ad9-ac06-9883-77f5" name="Additional systems" hidden="false" collective="false" import="true">
       <selectionEntries>
@@ -2753,6 +3069,11 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
             <selectionEntry id="6db0-55d5-e961-43b0" name="Last Surviving Lynchpin of Code" hidden="false" collective="false" import="true" type="upgrade">
               <modifiers>
@@ -2769,6 +3090,11 @@
                   </characteristics>
                 </profile>
               </profiles>
+              <costs>
+                <cost name=" PL" typeId="e356-c769-5920-6e14" value="0.0"/>
+                <cost name="CP" typeId="2d3b-b544-ad49-fb75" value="0.0"/>
+                <cost name="pts" typeId="points" value="0.0"/>
+              </costs>
             </selectionEntry>
           </selectionEntries>
         </selectionEntryGroup>
