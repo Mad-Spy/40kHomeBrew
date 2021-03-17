@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<catalogue id="0357-2946-5fdd-a621" name="Kroot" revision="1" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
+<catalogue id="0357-2946-5fdd-a621" name="Kroot" revision="3" battleScribeVersion="2.03" library="false" gameSystemId="28ec-711c-d87f-3aeb" gameSystemRevision="179" xmlns="http://www.battlescribe.net/schema/catalogueSchema">
   <profileTypes>
     <profileType id="aa4d-70b0-e683-a8fd" name="Shaman">
       <characteristicTypes>
@@ -20,7 +20,7 @@
       <profiles>
         <profile id="4c7d-8ed7-eb4b-d196" name="Shaman" hidden="false" typeId="72c5eafc-75bf-4ed9-b425-78009f1efe82" typeName="Abilities">
           <characteristics>
-            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of each of your Command phases, each SHAMAN in your army may decide to invoke an Invocation it knows that hasn&apos;t been attempted by other SHAMANS that turn. Roll a die, on a 3+ plus the Invocation is succesful and it immediately takes effect.</characteristic>
+            <characteristic name="Description" typeId="21befb24-fc85-4f52-a745-64b2e48f8228">At the start of each of your Command phases, each SHAMAN in your army may decide to invoke an Invocation it knows that hasn&apos;t been attempted by other SHAMANS that turn. Roll a die, on a 3+ plus the Invocation is successful and it immediately takes effect.</characteristic>
           </characteristics>
         </profile>
       </profiles>
@@ -28,7 +28,7 @@
     <categoryEntry id="f756-858e-c8ad-1211" name="Kindred" hidden="false"/>
     <categoryEntry id="5845-88a0-36d1-012d" name="Kroot Master Shaman" hidden="false"/>
     <categoryEntry id="d6de-4cb7-3d33-cb14" name="Kroot Shaper" hidden="false"/>
-    <categoryEntry id="5fb4-2e42-96b9-be92" name="Kroot Beasts" hidden="false"/>
+    <categoryEntry id="5fb4-2e42-96b9-be92" name="Kroot Predators" hidden="false"/>
     <categoryEntry id="85f5-e303-59ab-5aba" name="Knarloc" hidden="false"/>
     <categoryEntry id="04e4-9f8e-72f6-697a" name="Anghkor Prok" hidden="false"/>
     <categoryEntry id="5c7e-d04d-388e-ea7d" name="Kroot Beast-hunter" hidden="false"/>
@@ -492,11 +492,6 @@
             <cost name="pts" typeId="points" value="7.0"/>
           </costs>
         </entryLink>
-        <entryLink id="1b45-985c-e4c0-6c6a" name="Krootor companion" hidden="false" collective="false" import="true" targetId="d4f0-b26b-3679-f78e" type="selectionEntry">
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
-          </costs>
-        </entryLink>
         <entryLink id="854d-4bd2-8f1b-28bb" name="Packalpha" hidden="false" collective="false" import="true" targetId="cdf6-5b2c-5a95-2ae7" type="selectionEntry"/>
         <entryLink id="f277-a998-098d-9632" name="The Wisest&apos;s Command" hidden="false" collective="false" import="true" targetId="55d4-4ffa-6262-8eb5" type="selectionEntry"/>
         <entryLink id="d8c4-0943-1fe3-0919" name="Hunting Relics" hidden="false" collective="false" import="true" targetId="ca1b-9bf5-d93a-cb62" type="selectionEntryGroup"/>
@@ -600,11 +595,6 @@
         <entryLink id="8bbf-7f7c-50ca-642e" name="Kroot shield" hidden="false" collective="false" import="true" targetId="deed-2eeb-9416-c241" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="points" value="7.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="9aef-5c7f-bf98-6edd" name="Krootor companion" hidden="false" collective="false" import="true" targetId="d4f0-b26b-3679-f78e" type="selectionEntry">
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </entryLink>
         <entryLink id="568b-5e90-dbbd-e9a6" name="Kroot pistol" hidden="false" collective="false" import="true" targetId="2570-b0fb-6422-ce3b" type="selectionEntry">
@@ -1017,20 +1007,9 @@
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="feb4-fb7b-73c2-1f7f" type="max"/>
           </constraints>
         </entryLink>
-        <entryLink id="9d65-1aee-74f1-f6cc" name="Kroot blade" hidden="false" collective="false" import="true" targetId="8382-4dda-a7fe-5d11" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7356-dd6b-fe17-147e" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="88a7-9275-f2a2-55d7" type="max"/>
-          </constraints>
-        </entryLink>
         <entryLink id="99cd-7455-fdff-07d8" name="Kroot shield" hidden="false" collective="false" import="true" targetId="deed-2eeb-9416-c241" type="selectionEntry">
           <costs>
             <cost name="pts" typeId="points" value="7.0"/>
-          </costs>
-        </entryLink>
-        <entryLink id="f1a9-9544-d739-b6d4" name="Krootor companion" hidden="false" collective="false" import="true" targetId="d4f0-b26b-3679-f78e" type="selectionEntry">
-          <costs>
-            <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </entryLink>
         <entryLink id="d295-164d-5987-5f25" name="Beast-hunter weapon" hidden="false" collective="false" import="true" targetId="d15c-f9e1-2501-586b" type="selectionEntryGroup"/>
@@ -1112,12 +1091,6 @@
           <constraints>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="a8da-238e-794f-e559" type="min"/>
             <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="b9d1-d4d2-0531-70d9" type="max"/>
-          </constraints>
-        </entryLink>
-        <entryLink id="ff50-dc5c-bec6-0be5" name="Kroot blade" hidden="false" collective="false" import="true" targetId="8382-4dda-a7fe-5d11" type="selectionEntry">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="3641-0bd0-3797-b1aa" type="min"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4bc2-7f05-075b-a6c6" type="max"/>
           </constraints>
         </entryLink>
         <entryLink id="55a5-e476-407e-b6ec" name="Kroot shield" hidden="false" collective="false" import="true" targetId="deed-2eeb-9416-c241" type="selectionEntry">
@@ -3420,21 +3393,24 @@
     </selectionEntryGroup>
     <selectionEntryGroup id="7318-6bf8-5532-7fac" name="Beast-hunter Equipment" hidden="false" collective="false" import="true">
       <modifiers>
-        <modifier type="set" field="52a1-e08e-9f6a-fb8b" value="1.0">
+        <modifier type="increment" field="52a1-e08e-9f6a-fb8b" value="1.0">
+          <conditions>
+            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e17b-928a-fcf9-fa37" type="equalTo"/>
+          </conditions>
+        </modifier>
+        <modifier type="decrement" field="52a1-e08e-9f6a-fb8b" value="1.0">
           <conditionGroups>
-            <conditionGroup type="or">
+            <conditionGroup type="and">
               <conditions>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="e527-d788-b4b5-f4ed" type="equalTo"/>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="053d-668d-5b2a-7414" type="equalTo"/>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="94ab-01d7-0478-1c0d" type="equalTo"/>
-                <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="5ded-b6f6-eaa1-6078" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3108-7124-6d5d-660a" type="equalTo"/>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8e99-dc3d-2c22-cfe2" type="equalTo"/>
               </conditions>
             </conditionGroup>
           </conditionGroups>
         </modifier>
-        <modifier type="increment" field="52a1-e08e-9f6a-fb8b" value="1.0">
+        <modifier type="decrement" field="52a1-e08e-9f6a-fb8b" value="1.0">
           <conditions>
-            <condition field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="e17b-928a-fcf9-fa37" type="equalTo"/>
+            <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="8382-4dda-a7fe-5d11" type="equalTo"/>
           </conditions>
         </modifier>
       </modifiers>
@@ -3517,37 +3493,72 @@
         </selectionEntry>
       </selectionEntries>
     </selectionEntryGroup>
-    <selectionEntryGroup id="d15c-f9e1-2501-586b" name="Beast-hunter weapon" hidden="false" collective="false" import="true" defaultSelectionEntryId="504b-a015-e799-bc66">
+    <selectionEntryGroup id="d15c-f9e1-2501-586b" name="Beast-hunter weapons" hidden="false" collective="false" import="true" defaultSelectionEntryId="504b-a015-e799-bc66">
       <constraints>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aef-4fd7-43b8-39df" type="min"/>
-        <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aa2-57a0-680b-bc9a" type="max"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="0aef-4fd7-43b8-39df" type="min"/>
+        <constraint field="selections" scope="parent" value="2.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="8aa2-57a0-680b-bc9a" type="max"/>
       </constraints>
       <entryLinks>
-        <entryLink id="504b-a015-e799-bc66" name="Kroot rifle" hidden="false" collective="false" import="true" targetId="8e99-dc3d-2c22-cfe2" type="selectionEntry"/>
+        <entryLink id="504b-a015-e799-bc66" name="Kroot rifle" hidden="false" collective="false" import="true" targetId="8e99-dc3d-2c22-cfe2" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="1d84-0d1d-a355-70d4" value="0.0">
+              <conditions>
+                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" childId="3108-7124-6d5d-660a" type="greaterThan"/>
+              </conditions>
+            </modifier>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="1d84-0d1d-a355-70d4" type="max"/>
+          </constraints>
+        </entryLink>
         <entryLink id="fbab-c7be-2308-741f" name="Eviscerator" hidden="false" collective="false" import="true" targetId="3108-7124-6d5d-660a" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="d340-ad9d-ded2-02cd" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="points" value="10.0"/>
           </costs>
         </entryLink>
         <entryLink id="bdb0-b4f9-0aed-f350" name="Barbed whip" hidden="false" collective="false" import="true" targetId="94ab-01d7-0478-1c0d" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="4390-d47d-d43a-ab23" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="points" value="5.0"/>
           </costs>
         </entryLink>
         <entryLink id="f46a-dbb8-5850-3ef7" name="Beast mauler" hidden="false" collective="false" import="true" targetId="e527-d788-b4b5-f4ed" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="7409-b231-22f6-ea1c" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="points" value="8.0"/>
           </costs>
         </entryLink>
         <entryLink id="531a-cdfc-f1b5-6c1d" name="Kroot bow" hidden="false" collective="false" import="true" targetId="5ded-b6f6-eaa1-6078" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="eaa7-7fdc-0dca-4266" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="points" value="3.0"/>
           </costs>
         </entryLink>
         <entryLink id="2654-8ba0-3755-5355" name="Precision kroot rifle" hidden="false" collective="false" import="true" targetId="053d-668d-5b2a-7414" type="selectionEntry">
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="e22a-9fb3-69f9-48d0" type="max"/>
+          </constraints>
           <costs>
             <cost name="pts" typeId="points" value="7.0"/>
           </costs>
+        </entryLink>
+        <entryLink id="848f-ee5e-cc2b-3e67" name="Kroot blade" hidden="false" collective="false" import="true" targetId="8382-4dda-a7fe-5d11" type="selectionEntry">
+          <modifiers>
+            <modifier type="set" field="665a-6ffa-b984-9654" value="0.0"/>
+          </modifiers>
+          <constraints>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="cf9c-f4a5-0c2e-533d" type="max"/>
+            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="665a-6ffa-b984-9654" type="min"/>
+          </constraints>
         </entryLink>
       </entryLinks>
     </selectionEntryGroup>
@@ -4101,9 +4112,6 @@
       </constraints>
       <selectionEntries>
         <selectionEntry id="7a22-421f-497a-b712" name="Big shoota" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ca1c-01df-d795-ba17" type="max"/>
-          </constraints>
           <profiles>
             <profile id="8fe7-0c03-26c4-0d37" name="Big shoota" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
@@ -4123,9 +4131,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="7f9e-38c5-4c43-2c06" name="Demolition charge" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="a411-b328-b9fa-aabe" type="max"/>
-          </constraints>
           <profiles>
             <profile id="4590-9403-ad23-4c09" name="Demolition charge" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
@@ -4145,9 +4150,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="a82e-5358-72b6-88f0" name="Power sword" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="dda8-f685-8965-f252" type="max"/>
-          </constraints>
           <profiles>
             <profile id="c148-b078-d89e-9bd0" name="Power sword" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
@@ -4167,9 +4169,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="cd11-3db3-92ad-bb4a" name="Shuriken pistol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="ff53-6dc0-454e-586f" type="max"/>
-          </constraints>
           <profiles>
             <profile id="3637-a739-f5dd-fdfb" name="Shuriken pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
@@ -4189,9 +4188,6 @@
           </costs>
         </selectionEntry>
         <selectionEntry id="d3e8-c309-974b-2481" name="Splinter pistol" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="roster" value="1.0" percentValue="false" shared="true" includeChildSelections="true" includeChildForces="false" id="3a3c-5eb1-0692-5bc1" type="max"/>
-          </constraints>
           <profiles>
             <profile id="e8c1-87d4-9df5-9d09" name="Splinter pistol" hidden="false" typeId="d5f97c0b-9fc9-478d-aa34-a7c414d3ea48" typeName="Weapon">
               <characteristics>
