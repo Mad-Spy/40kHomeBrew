@@ -19,6 +19,8 @@ These files are for the user-created Codexes below:
 
 [Codex - Blackstone Constructs](https://1d4chan.org/wiki/Codex_-_Blackstone_Constructs:_/tg/%27s_9th_Edition)
 
+[Codex - Kroot](https://1d4chan.org/wiki/Codex_-_Kroots:_/tg/%27s_9th_Edition)
+
 ---------------------
 To use these files, first download the relevant 40k data set within Battlescribe. You may need to select "Show Archived Repositories" in order to see the 8th edition data set.
 
