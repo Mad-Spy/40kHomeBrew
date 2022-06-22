@@ -30,6 +30,6 @@ You then need to manually copy the file into your Battlescribe data directory.
 
 On Windows, that is "%userprofile%\Battlescribe\data\Warhammer 40,000 (Nth) Edition" by default.
 
-On Android, it is "\Android\data\net.battlescribe.mobile.rostereditor\files\data\Warhammer 40,000 (Nth) Edition"
+On Android, it is "\Android\data\net.battlescribe.mobile.rostereditor\files\data\Warhammer 40,000 (Nth) Edition". If you have Android 11 or later, you will need a file manager app that can access system folders.
 
 Once the file is in that directory, you should see the new catalogue as a choice when you go to create a new Roster.
