@@ -10585,6 +10585,6 @@ For the purposes of relics and strategems, the above weapons are treated as bolt
     </infoGroup>
   </sharedInfoGroups>
   <catalogueLinks>
-    <catalogueLink id="aa2c-e8f4-0303-bede" name="Imperium - Inquisition" targetId="e373-3c0a-1185-46ea" type="catalogue" importRootEntries="false"/>
+    <catalogueLink id="aa2c-e8f4-0303-bede" name="Imperium - Inquisition" targetId="2488-8077-e80e-0039" type="catalogue" importRootEntries="false"/>
   </catalogueLinks>
 </catalogue>
